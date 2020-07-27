@@ -56,9 +56,10 @@ public class alpacaRESTConnection {
 	}
 
 	public static void close(String ticker, String token, String secret) throws IOException, InterruptedException {
+		//TODO: m8 you did a get request
 		HttpClient client = HttpClient.newHttpClient();
 		HttpRequest request = HttpRequest.newBuilder()
-				.GET()
+				.DELETE()
 				.uri(URI.create("https://paper-api.alpaca.markets/v2/positions/" + ticker))
 				.header("APCA-API-KEY-ID", token)
 				.header("APCA-API-SECRET-KEY", secret)
@@ -106,6 +107,4 @@ public class alpacaRESTConnection {
 
 		return response.body();
 	}
-
-
 }

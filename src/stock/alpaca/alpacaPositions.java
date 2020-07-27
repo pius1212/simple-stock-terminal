@@ -2,11 +2,9 @@ package stock.alpaca;
 
 import org.ice1000.jimgui.JImGui;
 import org.ice1000.jimgui.JImVec4;
-import org.ice1000.jimgui.flag.JImCondition;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
-import stock.test.bar.barHandler;
 import stock.test.bar.barTest;
 
 import java.io.IOException;
@@ -14,9 +12,6 @@ import java.net.URI;
 import java.net.http.HttpClient;
 import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
-import java.text.DecimalFormat;
-import java.time.LocalDateTime;
-import java.time.format.DateTimeFormatter;
 
 public class alpacaPositions extends barTest {
     public static void updatePositionsAndOrders(String token, String secret) throws IOException, InterruptedException {

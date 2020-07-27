@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c7d115da-ed20-46be-83c2-76169d79051b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stock/indicators/abstractIndicator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stock/indicators/wld.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Demo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stock/alpaca/alpacaPositions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stock/alpaca/alpacaPositions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stock/alpaca/alpacaRESTConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stock/alpaca/alpacaRESTConnection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stock/test/shortcut/wldTest.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="C:\Users\Dell Precision\IdeaProjects\stockimgui\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1bBAjKjSQaP72EZSOHPUpLafpqF" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JAVA" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Dell Precision\IdeaProjects\stockimgui\src\stock\bar" />
+      <recent name="C:\Users\Dell Precision\IdeaProjects\stockimgui\res" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="stock" />
+      <recent name="etf" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Dell Precision\IdeaProjects\stockimgui\res" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.wldAlgo">
+    <configuration name="Mainbeta" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stock.Mainbeta" />
+      <module name="stockimgui" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="stock.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="com.soywiz.korge.intellij.UpdateResourceBeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
+    <configuration name="SPY" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stock.etf.SPY" />
+      <module name="stockimgui" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="stock.etf.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="com.soywiz.korge.intellij.UpdateResourceBeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
+    <configuration name="barTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stock.test.bar.barTest" />
+      <module name="stockimgui" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="stock.test.bar.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="com.soywiz.korge.intellij.UpdateResourceBeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
+    <configuration name="shortcuts" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stock.algo.custom.shortcuts" />
+      <module name="stockimgui" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="stock.algo.custom.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="com.soywiz.korge.intellij.UpdateResourceBeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
+    <configuration name="wldAlgo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stock.algo.wld.wldAlgo" />
+      <module name="stockimgui" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="stock.algo.wld.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="com.soywiz.korge.intellij.UpdateResourceBeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Mainbeta" />
+      <item itemvalue="Application.SPY" />
+      <item itemvalue="Application.barTest" />
+      <item itemvalue="Application.shortcuts" />
+      <item itemvalue="Application.wldAlgo" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.wldAlgo" />
+        <item itemvalue="Application.barTest" />
+        <item itemvalue="Application.Mainbeta" />
+        <item itemvalue="Application.SPY" />
+        <item itemvalue="Application.shortcuts" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+    <option name="showServicesTree" value="false" />
+  </component>
+  <component name="StructureViewFactory">
+    <option name="AUTOSCROLL_MODE" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c7d115da-ed20-46be-83c2-76169d79051b" name="Default Changelist" comment="" />
+      <created>1588095246227</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1588095246227</updated>
+    </task>
+    <task id="LOCAL-00001" summary="initial commit">
+      <created>1595559891303</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1595559891303</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+    <MESSAGE value="initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2043" y="-228" key="#Main_(1)" timestamp="1589556134180">
+      <screen x="1366" y="-465" width="1920" height="1080" />
+    </state>
+    <state x="2043" y="-228" key="#Main_(1)/0.0.1366.768/1366.-465.1920.1080@1366.-465.1920.1080" timestamp="1589556134180" />
+    <state x="1918" y="-266" key="#Notifications" timestamp="1595559922887">
+      <screen x="1366" y="-465" width="1920" height="1080" />
+    </state>
+    <state x="1918" y="-266" key="#Notifications/0.0.1366.768/1366.-465.1920.1080@1366.-465.1920.1080" timestamp="1595559922887" />
+    <state x="1918" y="-266" key="#Project_Structure" timestamp="1594484556338">
+      <screen x="1366" y="-465" width="1920" height="1080" />
+    </state>
+    <state x="1918" y="-266" key="#Project_Structure/0.0.1366.768/1366.-465.1920.1080@1366.-465.1920.1080" timestamp="1594484556338" />
+    <state x="413" y="140" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1594301750038">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="413" y="140" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1366.768/1366.-465.1920.1080@0.0.1366.768" timestamp="1594301750038" />
+    <state x="1780" y="-269" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1591780408317">
+      <screen x="1366" y="-465" width="1920" height="1080" />
+    </state>
+    <state x="1780" y="-269" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.768/1366.-465.1920.1080@1366.-465.1920.1080" timestamp="1591780408317" />
+    <state x="1937" y="-201" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1594291826023">
+      <screen x="1366" y="-465" width="1920" height="1080" />
+    </state>
+    <state x="406" y="188" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.768/1366.-465.1920.1080@0.0.1366.768" timestamp="1591725896029" />
+    <state x="1937" y="-201" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.768/1366.-465.1920.1080@1366.-465.1920.1080" timestamp="1594291826023" />
+    <state x="2106" y="-219" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1588257940191">
+      <screen x="1366" y="-465" width="1920" height="1080" />
+    </state>
+    <state x="2106" y="-219" key="#com.intellij.ide.macro.MacrosDialog/0.0.1366.768/1366.-465.1920.1080@1366.-465.1920.1080" timestamp="1588257940191" />
+    <state x="544" y="178" key="#com.intellij.ide.util.MemberChooser" timestamp="1594103402365">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="544" y="178" key="#com.intellij.ide.util.MemberChooser/0.0.1366.768/1366.-465.1920.1080@0.0.1366.768" timestamp="1591727500071" />
+    <state x="2131" y="-215" key="#com.intellij.ide.util.MemberChooser/0.0.1366.768/1366.-465.1920.1080@1366.-465.1920.1080" timestamp="1588203398991" />
+    <state x="544" y="178" key="#com.intellij.ide.util.MemberChooser/0.0.1366.768@0.0.1366.768" timestamp="1594103402365" />
+    <state x="2055" y="-140" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1591775893218">
+      <screen x="1366" y="-465" width="1920" height="1080" />
+    </state>
+    <state x="2055" y="-140" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1366.768/1366.-465.1920.1080@1366.-465.1920.1080" timestamp="1591775893218" />
+    <state x="2049" y="-235" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1595559661391">
+      <screen x="1366" y="-465" width="1920" height="1080" />
+    </state>
+    <state x="2049" y="-235" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1366.768/1366.-465.1920.1080@1366.-465.1920.1080" timestamp="1595559661391" />
+    <state x="2122" y="-39" width="408" height="237" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1595467360998">
+      <screen x="1366" y="-465" width="1920" height="1080" />
+    </state>
+    <state x="2122" y="-39" width="408" height="237" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1366.768/1366.-465.1920.1080@1366.-465.1920.1080" timestamp="1595467360998" />
+    <state x="2056" y="-177" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1594302432160">
+      <screen x="1366" y="-465" width="1920" height="1080" />
+    </state>
+    <state x="2056" y="-177" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1366.768/1366.-465.1920.1080@1366.-465.1920.1080" timestamp="1594302432160" />
+    <state x="2084" y="-53" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1594286432554">
+      <screen x="1366" y="-465" width="1920" height="1080" />
+    </state>
+    <state x="2084" y="-53" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1366.768/1366.-465.1920.1080@1366.-465.1920.1080" timestamp="1594286432554" />
+    <state x="1968" y="-330" key="CommitChangelistDialog2" timestamp="1595559889535">
+      <screen x="1366" y="-465" width="1920" height="1080" />
+    </state>
+    <state x="1968" y="-330" key="CommitChangelistDialog2/0.0.1366.768/1366.-465.1920.1080@1366.-465.1920.1080" timestamp="1595559889535" />
+    <state x="2106" y="-183" key="FileChooserDialogImpl" timestamp="1595560085505">
+      <screen x="1366" y="-465" width="1920" height="1080" />
+    </state>
+    <state x="2106" y="-183" key="FileChooserDialogImpl/0.0.1366.768/1366.-465.1920.1080@1366.-465.1920.1080" timestamp="1595560085505" />
+    <state x="2201" y="-31" width="260" height="211" key="Github.ShareDialog" timestamp="1595560264281">
+      <screen x="1366" y="-465" width="1920" height="1080" />
+    </state>
+    <state x="2201" y="-31" width="260" height="211" key="Github.ShareDialog/0.0.1366.768/1366.-465.1920.1080@1366.-465.1920.1080" timestamp="1595560264281" />
+    <state x="2086" y="-219" key="Github.UntrackedFilesDialog" timestamp="1595560268349">
+      <screen x="1366" y="-465" width="1920" height="1080" />
+    </state>
+    <state x="2086" y="-219" key="Github.UntrackedFilesDialog/0.0.1366.768/1366.-465.1920.1080@1366.-465.1920.1080" timestamp="1595560268349" />
+    <state width="1877" height="324" key="GridCell.Tab.0.bottom" timestamp="1595558482095">
+      <screen x="1366" y="-465" width="1920" height="1080" />
+    </state>
+    <state width="1323" height="147" key="GridCell.Tab.0.bottom/0.0.1366.768/-188.-1080.1920.1080@0.0.1366.768" timestamp="1593057721893" />
+    <state width="1323" height="215" key="GridCell.Tab.0.bottom/0.0.1366.768/1366.-465.1920.1080@0.0.1366.768" timestamp="1594994382052" />
+    <state width="1877" height="324" key="GridCell.Tab.0.bottom/0.0.1366.768/1366.-465.1920.1080@1366.-465.1920.1080" timestamp="1595558482095" />
+    <state width="1323" height="145" key="GridCell.Tab.0.bottom/0.0.1366.768/1366.0.1280.720@0.0.1366.768" timestamp="1594065811121" />
+    <state width="1323" height="215" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1595013364702" />
+    <state width="1877" height="324" key="GridCell.Tab.0.center" timestamp="1595558482095">
+      <screen x="1366" y="-465" width="1920" height="1080" />
+    </state>
+    <state width="1323" height="147" key="GridCell.Tab.0.center/0.0.1366.768/-188.-1080.1920.1080@0.0.1366.768" timestamp="1593057721893" />
+    <state width="1323" height="215" key="GridCell.Tab.0.center/0.0.1366.768/1366.-465.1920.1080@0.0.1366.768" timestamp="1594994382051" />
+    <state width="1877" height="324" key="GridCell.Tab.0.center/0.0.1366.768/1366.-465.1920.1080@1366.-465.1920.1080" timestamp="1595558482095" />
+    <state width="1323" height="145" key="GridCell.Tab.0.center/0.0.1366.768/1366.0.1280.720@0.0.1366.768" timestamp="1594065811121" />
+    <state width="1323" height="215" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1595013364702" />
+    <state width="1877" height="324" key="GridCell.Tab.0.left" timestamp="1595558482094">
+      <screen x="1366" y="-465" width="1920" height="1080" />
+    </state>
+    <state width="1323" height="147" key="GridCell.Tab.0.left/0.0.1366.768/-188.-1080.1920.1080@0.0.1366.768" timestamp="1593057721892" />
+    <state width="1323" height="215" key="GridCell.Tab.0.left/0.0.1366.768/1366.-465.1920.1080@0.0.1366.768" timestamp="1594994382051" />
+    <state width="1877" height="324" key="GridCell.Tab.0.left/0.0.1366.768/1366.-465.1920.1080@1366.-465.1920.1080" timestamp="1595558482094" />
+    <state width="1323" height="145" key="GridCell.Tab.0.left/0.0.1366.768/1366.0.1280.720@0.0.1366.768" timestamp="1594065811120" />
+    <state width="1323" height="215" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1595013364702" />
+    <state width="1877" height="324" key="GridCell.Tab.0.right" timestamp="1595558482095">
+      <screen x="1366" y="-465" width="1920" height="1080" />
+    </state>
+    <state width="1323" height="147" key="GridCell.Tab.0.right/0.0.1366.768/-188.-1080.1920.1080@0.0.1366.768" timestamp="1593057721893" />
+    <state width="1323" height="215" key="GridCell.Tab.0.right/0.0.1366.768/1366.-465.1920.1080@0.0.1366.768" timestamp="1594994382052" />
+    <state width="1877" height="324" key="GridCell.Tab.0.right/0.0.1366.768/1366.-465.1920.1080@1366.-465.1920.1080" timestamp="1595558482095" />
+    <state width="1323" height="145" key="GridCell.Tab.0.right/0.0.1366.768/1366.0.1280.720@0.0.1366.768" timestamp="1594065811121" />
+    <state width="1323" height="215" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1595013364702" />
+    <state width="1877" height="277" key="GridCell.Tab.1.bottom" timestamp="1594788104971">
+      <screen x="1366" y="-465" width="1920" height="1080" />
+    </state>
+    <state width="1323" height="180" key="GridCell.Tab.1.bottom/0.0.1366.768/1366.-465.1920.1080@0.0.1366.768" timestamp="1591713806086" />
+    <state width="1877" height="277" key="GridCell.Tab.1.bottom/0.0.1366.768/1366.-465.1920.1080@1366.-465.1920.1080" timestamp="1594788104971" />
+    <state width="1323" height="181" key="GridCell.Tab.1.bottom/0.0.1366.768@0.0.1366.768" timestamp="1588264663759" />
+    <state width="1877" height="277" key="GridCell.Tab.1.center" timestamp="1594788104970">
+      <screen x="1366" y="-465" width="1920" height="1080" />
+    </state>
+    <state width="1323" height="180" key="GridCell.Tab.1.center/0.0.1366.768/1366.-465.1920.1080@0.0.1366.768" timestamp="1591713806086" />
+    <state width="1877" height="277" key="GridCell.Tab.1.center/0.0.1366.768/1366.-465.1920.1080@1366.-465.1920.1080" timestamp="1594788104970" />
+    <state width="1323" height="181" key="GridCell.Tab.1.center/0.0.1366.768@0.0.1366.768" timestamp="1588264663759" />
+    <state width="1877" height="277" key="GridCell.Tab.1.left" timestamp="1594788104970">
+      <screen x="1366" y="-465" width="1920" height="1080" />
+    </state>
+    <state width="1323" height="180" key="GridCell.Tab.1.left/0.0.1366.768/1366.-465.1920.1080@0.0.1366.768" timestamp="1591713806086" />
+    <state width="1877" height="277" key="GridCell.Tab.1.left/0.0.1366.768/1366.-465.1920.1080@1366.-465.1920.1080" timestamp="1594788104970" />
+    <state width="1323" height="181" key="GridCell.Tab.1.left/0.0.1366.768@0.0.1366.768" timestamp="1588264663759" />
+    <state width="1877" height="277" key="GridCell.Tab.1.right" timestamp="1594788104971">
+      <screen x="1366" y="-465" width="1920" height="1080" />
+    </state>
+    <state width="1323" height="180" key="GridCell.Tab.1.right/0.0.1366.768/1366.-465.1920.1080@0.0.1366.768" timestamp="1591713806086" />
+    <state width="1877" height="277" key="GridCell.Tab.1.right/0.0.1366.768/1366.-465.1920.1080@1366.-465.1920.1080" timestamp="1594788104971" />
+    <state width="1323" height="181" key="GridCell.Tab.1.right/0.0.1366.768@0.0.1366.768" timestamp="1588264663759" />
+    <state x="1897" y="-329" width="916" height="708" key="SettingsEditor" timestamp="1595560210541">
+      <screen x="1366" y="-465" width="1920" height="1080" />
+    </state>
+    <state x="314" y="25" key="SettingsEditor/0.0.1366.768/1366.-465.1920.1080@0.0.1366.768" timestamp="1594267202622" />
+    <state x="1897" y="-329" width="1040" height="711" key="SettingsEditor/0.0.1366.768/1366.-465.1920.1080@1366.-465.1920.1080" timestamp="1595560210541" />
+    <state x="417" y="60" width="916" height="708" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1594015739027" />
+    <state x="1918" y="-191" key="Vcs.Push.Dialog.v2" timestamp="1595560051123">
+      <screen x="1366" y="-465" width="1920" height="1080" />
+    </state>
+    <state x="1918" y="-191" key="Vcs.Push.Dialog.v2/0.0.1366.768/1366.-465.1920.1080@1366.-465.1920.1080" timestamp="1595560051123" />
+    <state x="2166" y="30" key="com.intellij.ide.util.TipDialog" timestamp="1595794424200">
+      <screen x="1366" y="-465" width="1920" height="1080" />
+    </state>
+    <state x="467" y="260" key="com.intellij.ide.util.TipDialog/0.0.1366.768/1366.-465.1920.1080@0.0.1366.768" timestamp="1591976584700" />
+    <state x="2166" y="30" key="com.intellij.ide.util.TipDialog/0.0.1366.768/1366.-465.1920.1080@1366.-465.1920.1080" timestamp="1595794424200" />
+    <state x="569" y="352" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1594184619360" />
+    <state x="2030" y="-31" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1588096172959">
+      <screen x="1366" y="-465" width="1920" height="1080" />
+    </state>
+    <state x="2030" y="-31" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1366.768/1366.-465.1920.1080@1366.-465.1920.1080" timestamp="1588096172959" />
+    <state x="0" y="0" width="1382" height="821" key="dock-window-1" timestamp="1594694013971">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="1385" y="-22" width="950" height="576" maximized="true" key="dock-window-1/0.0.1366.768/1366.-465.1920.1080@0.0.1366.768" timestamp="1594285125247" />
+    <state x="0" y="0" width="1382" height="821" key="dock-window-1/0.0.1366.768/1366.-465.1920.1080@1366.-465.1920.1080" timestamp="1594694013971" />
+    <state x="2020" y="-322" width="737" height="804" key="find.popup" timestamp="1595423563483">
+      <screen x="1366" y="-465" width="1920" height="1080" />
+    </state>
+    <state x="2020" y="-322" width="737" height="804" key="find.popup/0.0.1366.768/1366.-465.1920.1080@1366.-465.1920.1080" timestamp="1595423563483" />
+    <state x="467" y="98" width="607" height="573" key="find.popup/0.0.1366.768/1366.0.1280.720@0.0.1366.768" timestamp="1594063340276" />
+    <state x="467" y="98" width="607" height="573" key="find.popup/0.0.1366.768@0.0.1366.768" timestamp="1594057997729" />
+    <state x="2128" y="-60" key="git4idea.rebase.GitRebaseDialog" timestamp="1595559966827">
+      <screen x="1366" y="-465" width="1920" height="1080" />
+    </state>
+    <state x="2128" y="-60" key="git4idea.rebase.GitRebaseDialog/0.0.1366.768/1366.-465.1920.1080@1366.-465.1920.1080" timestamp="1595559966827" />
+    <state x="1708" y="-304" key="new project wizard" timestamp="1594477452462">
+      <screen x="1366" y="-465" width="1920" height="1080" />
+    </state>
+    <state x="1708" y="-304" key="new project wizard/0.0.1366.768/1366.-465.1920.1080@1366.-465.1920.1080" timestamp="1594477452462" />
+    <state x="131" y="11" key="new project wizard/0.0.1366.768@0.0.1366.768" timestamp="1593633267649" />
+    <state x="324" y="109" width="700" height="530" key="recent.locations.popup" timestamp="1593191191321">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="324" y="109" width="700" height="530" key="recent.locations.popup/0.0.1366.768@0.0.1366.768" timestamp="1593191191321" />
+    <state x="1982" y="18" key="run.anything.popup" timestamp="1594736017135">
+      <screen x="1366" y="-465" width="1920" height="1080" />
+    </state>
+    <state x="1982" y="18" key="run.anything.popup/0.0.1366.768/1366.-465.1920.1080@1366.-465.1920.1080" timestamp="1594736017135" />
+    <state x="1989" y="-230" width="672" height="160" key="search.everywhere.popup" timestamp="1595557026600">
+      <screen x="1366" y="-465" width="1920" height="1080" />
+    </state>
+    <state x="443" y="167" width="672" height="483" key="search.everywhere.popup/0.0.1366.768/1366.-465.1920.1080@0.0.1366.768" timestamp="1594392514597" />
+    <state x="1989" y="-230" width="672" height="160" key="search.everywhere.popup/0.0.1366.768/1366.-465.1920.1080@1366.-465.1920.1080" timestamp="1595557026600" />
+    <state x="443" y="167" width="672" height="483" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1594251726294" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/stockimgui$Scratch.ic" NAME="Scratch Coverage Results" MODIFIED="1591574923937" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/stockimgui$Mainbeta.ic" NAME="Mainbeta Coverage Results" MODIFIED="1591712831337" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>stock.*</FILTER>
+    </SUITE>
+  </component>
+</project>
