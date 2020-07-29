@@ -153,6 +153,14 @@ public class alpacaListener extends WebSocketClient {
         //am = minute bars
         //T.(ticker here), Q.(ticker here), AM.(ticker here)
 
+        if (printPrice.size() >= 200) {
+            for(int i = 0; i <= printPrice.size() - 100; i++){
+                printPrice.remove(i);
+                printTime.remove(i);
+                printVolume.remove(i);
+            }
+        }
+
             imGui.setNextWindowPos(1510, 220);
             imGui.setWindowSize("Print/Lvl1 Data", 410, 510);
             imGui.begin(ticker + " Print/Lvl1 Data ");
@@ -215,14 +223,6 @@ public class alpacaListener extends WebSocketClient {
                 imGui.text(printTime.get(i));
             }
         imGui.end();
-
-        if (printPrice.size() >= 200) {
-            for(int i = 0; i <= printPrice.size() - 100; i++){
-                printPrice.remove(i);
-                printTime.remove(i);
-                printVolume.remove(i);
-            }
-        }
     }
 
     public static double getPrice() {

@@ -8,6 +8,7 @@ import org.json.JSONObject;
 import stock.algo.wld.wldAlgo;
 import stock.alpaca.*;
 import stock.stockListener;
+import stock.global.*;
 
 import java.awt.*;
 import java.io.IOException;
@@ -45,8 +46,6 @@ public class barTest {
     public static String positions = "[]";
 
     static boolean requestBar = true;
-    static int grey = Color.GRAY.getRGB();
-    static int darkGrey = Color.DARK_GRAY.getRGB();
     static int barColor = Color.GREEN.getRGB();
 
     public static String APIkey = "AKKD80XYTBL1XEVJ7ZQI";
@@ -191,13 +190,13 @@ public class barTest {
         // i was so lazy that i didnt make it into an array,
         // it was 4am, piss off
 
-        dl.addRect(cursorPosX + 10, cursorPosY + 25, cursorPosX + 1435, cursorPosY + 715, darkGrey); //1425, 695
+        dl.addRect(cursorPosX + 10, cursorPosY + 25, cursorPosX + 1435, cursorPosY + 715, colors.darkGrey); //1425, 695
         for(int i = 1; i <= 9; i++){
-            dl.addLine(cursorPosX + 10 + ((float)i*142.5f) , cursorPosY + 25, cursorPosX + 10 + ((float)i*142.5f), cursorPosY + 715, darkGrey);
+            dl.addLine(cursorPosX + 10 + ((float)i*142.5f) , cursorPosY + 25, cursorPosX + 10 + ((float)i*142.5f), cursorPosY + 715, colors.darkGrey);
             //139
         }
         for(int i = 1; i <= 6; i++){
-            dl.addLine(cursorPosX + 10, cursorPosY + 25 + ((float) i*99.2857143f), cursorPosX + 1435, cursorPosY + 25 + ((float) i*99.2857143f), darkGrey);
+            dl.addLine(cursorPosX + 10, cursorPosY + 25 + ((float) i*99.2857143f), cursorPosX + 1435, cursorPosY + 25 + ((float) i*99.2857143f), colors.darkGrey);
         }
 
         int counter = (x.length - 1) - 69; //set(30) - len - 1
@@ -220,7 +219,7 @@ public class barTest {
                 } else if(wldf < wldn){
                     color = Color.YELLOW.getRGB();
                 } else {
-                    color = grey;
+                    color = colors.grey;
                 }
 
                 dl.addLine(cursorPosX + 41 + ((i - 31) * 20), cursorPosY + 670 - (float) wldf + 30, cursorPosX + 41 + ((i - 30) * 20), cursorPosY + 670 - (float) wldn + 30, color, 2);
@@ -253,7 +252,7 @@ public class barTest {
                 }
             }
             //fancy math for lame barchart
-            dl.addLine(cursorPosX + 41 + ((i - 31) * 20), cursorPosY + 670 - (float) l + 30, cursorPosX + 41 + ((i - 31) * 20), cursorPosY + 670 - (float) h + 30, grey);
+            dl.addLine(cursorPosX + 41 + ((i - 31) * 20), cursorPosY + 670 - (float) l + 30, cursorPosX + 41 + ((i - 31) * 20), cursorPosY + 670 - (float) h + 30, colors.grey);
             dl.addRectFilled(cursorPosX + 47 + ((i - 31) * 20), cursorPosY + 670 - (float) o + 30, cursorPosX + 36 + ((i - 31) * 20), cursorPosY + 670 - (float) c + 30, temp);
 
             if(o == c){
@@ -293,7 +292,7 @@ public class barTest {
 
         barColor = temp;
 
-        dl.addLine(cursorPosX + 41 + ((adjust - 30) * 20), cursorPosY + 670 - (float) l + 30, cursorPosX + 41 + ((adjust - 30) * 20), cursorPosY + 670 - (float) h + 30, grey);
+        dl.addLine(cursorPosX + 41 + ((adjust - 30) * 20), cursorPosY + 670 - (float) l + 30, cursorPosX + 41 + ((adjust - 30) * 20), cursorPosY + 670 - (float) h + 30, colors.grey);
         dl.addRectFilled(cursorPosX + 47 + ((adjust - 30) * 20), cursorPosY + 670 - (float) o + 30, cursorPosX + 36 + ((adjust - 30) * 20), cursorPosY + 670 - (float) c + 30, temp);
 
         if(o == c){
@@ -378,7 +377,7 @@ public class barTest {
 
     public static void main(String[] args) throws IOException, InterruptedException, URISyntaxException {
         String endpoint = "wss://data.alpaca.markets/stream";
-        String ticker = "F";
+        String ticker = "SPY";
 
         barHandler.updateBars(ticker, APIkey, secret);
         alpacaPositions.updatePositionsAndOrders(pAPIkey, psecret);
@@ -412,7 +411,7 @@ public class barTest {
 
         polygonListener pl = new polygonListener(new URI("wss://socket.polygon.io/stocks"), ticker, APIkey);
         pl.connect();
-        wldAlgo.wldAlgo(ticker);
+        //wldAlgo.wldAlgo(ticker);
 
         System.out.println(rsi.size());
 
@@ -420,6 +419,8 @@ public class barTest {
             imGui.setBackground(JImVec4.fromHSV(0, 0, 0));
             imGui.initBeforeMainLoop();
             while (!imGui.windowShouldClose()) {
+                imGui.initNewFrame();
+
                 LocalDateTime myDateObj = LocalDateTime.now();
                 DateTimeFormatter myFormatObj = DateTimeFormatter.ofPattern("dd/MM/YYYY || HH:mm:ss");
                 DateTimeFormatter myFormatObj2 = DateTimeFormatter.ofPattern("HH:mm:ss");
@@ -429,12 +430,12 @@ public class barTest {
                 client.forwardData(al);
                 pl.forwardData(al);
 
-                imGui.initNewFrame();
                 stockDescription(imGui, al);
                 renderBars(ticker, APIkey, secret, imGui, RSI, WLD);
                 al.renderListener(ticker, imGui);
                 MenuBar(imGui, WLD, WLDA);
                 wldTest(imGui);
+
                 alpacaPositions.renderPositionsAndOrders(imGui, al.getPrice(), rsibuy, rsisell, formattedDate);
                 imGui.render();
             }

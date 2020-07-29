@@ -2,19 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c7d115da-ed20-46be-83c2-76169d79051b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stock/indicators/abstractIndicator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stock/indicators/wld.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Demo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stock/alpaca/alpacaPositions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stock/alpaca/alpacaPositions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stock/alpaca/alpacaRESTConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stock/alpaca/alpacaRESTConnection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stock/test/shortcut/wldTest.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stock/global/barInstance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stock/global/colors.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stock/renderMain/renderHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imgui.ini" beforeDir="false" afterPath="$PROJECT_DIR$/imgui.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/stockimgui_jar/stockimgui.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/stockimgui_jar/stockimgui.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/stockimgui/Demo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/stockimgui/main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/stockimgui/main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/stockimgui/stock/algo/abstractAlgo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/stockimgui/stock/algo/abstractAlgo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/stockimgui/stock/algo/wld/wldAlgo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/stockimgui/stock/algo/wld/wldAlgo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/stockimgui/stock/alpaca/alpacaListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/stockimgui/stock/alpaca/alpacaListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/stockimgui/stock/alpaca/alpacaPositions.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/stockimgui/stock/alpaca/alpacaPositions.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/stockimgui/stock/alpaca/alpacaRESTConnection.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/stockimgui/stock/alpaca/alpacaRESTConnection.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/stockimgui/stock/stock.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/stockimgui/stock/stock.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/stockimgui/stock/test/bar/barTest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/stockimgui/stock/test/bar/barTest$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/stockimgui/stock/test/bar/barTest$barDataRead.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/stockimgui/stock/test/bar/barTest$barDataRead.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/stockimgui/stock/test/bar/barTest$barLength.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/stockimgui/stock/test/bar/barTest$barLength.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/stockimgui/stock/test/bar/barTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/stockimgui/stock/test/bar/barTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/stockimgui/stock/test/shortcut/wldTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stock/algo/abstractAlgo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stock/algo/abstractAlgo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stock/algo/wld/wldAlgo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stock/algo/wld/wldAlgo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stock/alpaca/alpacaListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stock/alpaca/alpacaListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stock/stock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stock/stock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stock/test/bar/barTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stock/test/bar/barTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="stockimgui" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -190,7 +210,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595559891303</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="commit bug fix">
+      <created>1595856351263</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1595856351263</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -198,7 +225,8 @@
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
     <MESSAGE value="initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+    <MESSAGE value="commit bug fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit bug fix" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2043" y="-228" key="#Main_(1)" timestamp="1589556134180">
@@ -213,10 +241,11 @@
       <screen x="1366" y="-465" width="1920" height="1080" />
     </state>
     <state x="1918" y="-266" key="#Project_Structure/0.0.1366.768/1366.-465.1920.1080@1366.-465.1920.1080" timestamp="1594484556338" />
-    <state x="413" y="140" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1594301750038">
-      <screen x="0" y="0" width="1366" height="768" />
+    <state x="1946" y="-268" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1595907958501">
+      <screen x="1366" y="-465" width="1920" height="1080" />
     </state>
     <state x="413" y="140" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1366.768/1366.-465.1920.1080@0.0.1366.768" timestamp="1594301750038" />
+    <state x="1946" y="-268" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1366.768/1366.-465.1920.1080@1366.-465.1920.1080" timestamp="1595907958501" />
     <state x="1780" y="-269" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1591780408317">
       <screen x="1366" y="-465" width="1920" height="1080" />
     </state>
@@ -256,9 +285,10 @@
       <screen x="1366" y="-465" width="1920" height="1080" />
     </state>
     <state x="2084" y="-53" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1366.768/1366.-465.1920.1080@1366.-465.1920.1080" timestamp="1594286432554" />
-    <state x="1968" y="-330" key="CommitChangelistDialog2" timestamp="1595559889535">
-      <screen x="1366" y="-465" width="1920" height="1080" />
+    <state x="428" y="0" key="CommitChangelistDialog2" timestamp="1595856350200">
+      <screen x="0" y="0" width="1366" height="768" />
     </state>
+    <state x="428" y="0" key="CommitChangelistDialog2/0.0.1366.768/1366.-465.1920.1080@0.0.1366.768" timestamp="1595856350200" />
     <state x="1968" y="-330" key="CommitChangelistDialog2/0.0.1366.768/1366.-465.1920.1080@1366.-465.1920.1080" timestamp="1595559889535" />
     <state x="2106" y="-183" key="FileChooserDialogImpl" timestamp="1595560085505">
       <screen x="1366" y="-465" width="1920" height="1080" />
@@ -272,36 +302,36 @@
       <screen x="1366" y="-465" width="1920" height="1080" />
     </state>
     <state x="2086" y="-219" key="Github.UntrackedFilesDialog/0.0.1366.768/1366.-465.1920.1080@1366.-465.1920.1080" timestamp="1595560268349" />
-    <state width="1877" height="324" key="GridCell.Tab.0.bottom" timestamp="1595558482095">
+    <state width="1877" height="211" key="GridCell.Tab.0.bottom" timestamp="1596057788742">
       <screen x="1366" y="-465" width="1920" height="1080" />
     </state>
     <state width="1323" height="147" key="GridCell.Tab.0.bottom/0.0.1366.768/-188.-1080.1920.1080@0.0.1366.768" timestamp="1593057721893" />
-    <state width="1323" height="215" key="GridCell.Tab.0.bottom/0.0.1366.768/1366.-465.1920.1080@0.0.1366.768" timestamp="1594994382052" />
-    <state width="1877" height="324" key="GridCell.Tab.0.bottom/0.0.1366.768/1366.-465.1920.1080@1366.-465.1920.1080" timestamp="1595558482095" />
+    <state width="1323" height="211" key="GridCell.Tab.0.bottom/0.0.1366.768/1366.-465.1920.1080@0.0.1366.768" timestamp="1595861879954" />
+    <state width="1877" height="211" key="GridCell.Tab.0.bottom/0.0.1366.768/1366.-465.1920.1080@1366.-465.1920.1080" timestamp="1596057788742" />
     <state width="1323" height="145" key="GridCell.Tab.0.bottom/0.0.1366.768/1366.0.1280.720@0.0.1366.768" timestamp="1594065811121" />
     <state width="1323" height="215" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1595013364702" />
-    <state width="1877" height="324" key="GridCell.Tab.0.center" timestamp="1595558482095">
+    <state width="1877" height="211" key="GridCell.Tab.0.center" timestamp="1596057788741">
       <screen x="1366" y="-465" width="1920" height="1080" />
     </state>
     <state width="1323" height="147" key="GridCell.Tab.0.center/0.0.1366.768/-188.-1080.1920.1080@0.0.1366.768" timestamp="1593057721893" />
-    <state width="1323" height="215" key="GridCell.Tab.0.center/0.0.1366.768/1366.-465.1920.1080@0.0.1366.768" timestamp="1594994382051" />
-    <state width="1877" height="324" key="GridCell.Tab.0.center/0.0.1366.768/1366.-465.1920.1080@1366.-465.1920.1080" timestamp="1595558482095" />
+    <state width="1323" height="211" key="GridCell.Tab.0.center/0.0.1366.768/1366.-465.1920.1080@0.0.1366.768" timestamp="1595861879953" />
+    <state width="1877" height="211" key="GridCell.Tab.0.center/0.0.1366.768/1366.-465.1920.1080@1366.-465.1920.1080" timestamp="1596057788741" />
     <state width="1323" height="145" key="GridCell.Tab.0.center/0.0.1366.768/1366.0.1280.720@0.0.1366.768" timestamp="1594065811121" />
     <state width="1323" height="215" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1595013364702" />
-    <state width="1877" height="324" key="GridCell.Tab.0.left" timestamp="1595558482094">
+    <state width="1877" height="211" key="GridCell.Tab.0.left" timestamp="1596057788741">
       <screen x="1366" y="-465" width="1920" height="1080" />
     </state>
     <state width="1323" height="147" key="GridCell.Tab.0.left/0.0.1366.768/-188.-1080.1920.1080@0.0.1366.768" timestamp="1593057721892" />
-    <state width="1323" height="215" key="GridCell.Tab.0.left/0.0.1366.768/1366.-465.1920.1080@0.0.1366.768" timestamp="1594994382051" />
-    <state width="1877" height="324" key="GridCell.Tab.0.left/0.0.1366.768/1366.-465.1920.1080@1366.-465.1920.1080" timestamp="1595558482094" />
+    <state width="1323" height="211" key="GridCell.Tab.0.left/0.0.1366.768/1366.-465.1920.1080@0.0.1366.768" timestamp="1595861879953" />
+    <state width="1877" height="211" key="GridCell.Tab.0.left/0.0.1366.768/1366.-465.1920.1080@1366.-465.1920.1080" timestamp="1596057788741" />
     <state width="1323" height="145" key="GridCell.Tab.0.left/0.0.1366.768/1366.0.1280.720@0.0.1366.768" timestamp="1594065811120" />
     <state width="1323" height="215" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1595013364702" />
-    <state width="1877" height="324" key="GridCell.Tab.0.right" timestamp="1595558482095">
+    <state width="1877" height="211" key="GridCell.Tab.0.right" timestamp="1596057788741">
       <screen x="1366" y="-465" width="1920" height="1080" />
     </state>
     <state width="1323" height="147" key="GridCell.Tab.0.right/0.0.1366.768/-188.-1080.1920.1080@0.0.1366.768" timestamp="1593057721893" />
-    <state width="1323" height="215" key="GridCell.Tab.0.right/0.0.1366.768/1366.-465.1920.1080@0.0.1366.768" timestamp="1594994382052" />
-    <state width="1877" height="324" key="GridCell.Tab.0.right/0.0.1366.768/1366.-465.1920.1080@1366.-465.1920.1080" timestamp="1595558482095" />
+    <state width="1323" height="211" key="GridCell.Tab.0.right/0.0.1366.768/1366.-465.1920.1080@0.0.1366.768" timestamp="1595861879954" />
+    <state width="1877" height="211" key="GridCell.Tab.0.right/0.0.1366.768/1366.-465.1920.1080@1366.-465.1920.1080" timestamp="1596057788741" />
     <state width="1323" height="145" key="GridCell.Tab.0.right/0.0.1366.768/1366.0.1280.720@0.0.1366.768" timestamp="1594065811121" />
     <state width="1323" height="215" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1595013364702" />
     <state width="1877" height="277" key="GridCell.Tab.1.bottom" timestamp="1594788104971">
@@ -353,10 +383,10 @@
     </state>
     <state x="1385" y="-22" width="950" height="576" maximized="true" key="dock-window-1/0.0.1366.768/1366.-465.1920.1080@0.0.1366.768" timestamp="1594285125247" />
     <state x="0" y="0" width="1382" height="821" key="dock-window-1/0.0.1366.768/1366.-465.1920.1080@1366.-465.1920.1080" timestamp="1594694013971" />
-    <state x="2020" y="-322" width="737" height="804" key="find.popup" timestamp="1595423563483">
+    <state x="2020" y="-322" width="737" height="804" key="find.popup" timestamp="1595909758908">
       <screen x="1366" y="-465" width="1920" height="1080" />
     </state>
-    <state x="2020" y="-322" width="737" height="804" key="find.popup/0.0.1366.768/1366.-465.1920.1080@1366.-465.1920.1080" timestamp="1595423563483" />
+    <state x="2020" y="-322" width="737" height="804" key="find.popup/0.0.1366.768/1366.-465.1920.1080@1366.-465.1920.1080" timestamp="1595909758908" />
     <state x="467" y="98" width="607" height="573" key="find.popup/0.0.1366.768/1366.0.1280.720@0.0.1366.768" timestamp="1594063340276" />
     <state x="467" y="98" width="607" height="573" key="find.popup/0.0.1366.768@0.0.1366.768" timestamp="1594057997729" />
     <state x="2128" y="-60" key="git4idea.rebase.GitRebaseDialog" timestamp="1595559966827">

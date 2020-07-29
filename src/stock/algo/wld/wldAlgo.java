@@ -31,8 +31,8 @@ public abstract class wldAlgo extends barTest implements Runnable{
 						shortOpen = false;
 						try {
 							alpacaOrder.close(ticker, pAPIkey, psecret);
-							alpacaOrder.openLongMarket(pAPIkey, psecret, ticker, 1500, "day");
-							System.out.println("bought 1500 shares of " + ticker);
+							alpacaOrder.openLongMarket(pAPIkey, psecret, ticker, 200, "day");
+							System.out.println("bought 200 shares of " + ticker);
 						} catch (IOException | InterruptedException e) {
 							e.printStackTrace();
 						}
@@ -43,8 +43,8 @@ public abstract class wldAlgo extends barTest implements Runnable{
 						shortOpen = true;
 						try {
 							alpacaOrder.close(ticker, pAPIkey, psecret);
-							alpacaOrder.openShortMarket(pAPIkey, psecret, ticker, 1500, "day");
-							System.out.println("sold 1500 shares of " + ticker);
+							alpacaOrder.openShortMarket(pAPIkey, psecret, ticker, 200, "day");
+							System.out.println("sold 200 shares of " + ticker);
 						} catch (IOException | InterruptedException e) {
 							e.printStackTrace();
 						}
