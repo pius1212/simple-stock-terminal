@@ -1,6 +1,7 @@
 package stock;
 
 import stock.alpaca.alpacaIndicatorData;
+import stock.alpaca.polygonListener;
 import stock.test.bar.bar;
 import stock.test.bar.liveBar;
 
@@ -12,6 +13,7 @@ public class stock {
 	private String apiSecret = "";
 	private String pApiKey = "";
 	private String pSecret = "";
+
 	private String ticker = "";
 
 	private static List<bar> bars = new CopyOnWriteArrayList< bar >();
@@ -32,7 +34,15 @@ public class stock {
 		this.ticker = ticker;
 	}
 
+	public void socket(polygonListener pl){
+		pl.send("{\"action\":\"subscribe\",\"params\":\"T." + ticker + "\"}");
+		pl.send("{\"action\":\"subscribe\",\"params\":\"Q." + ticker + "\"}");	}
+
 	public void render(){
+
+	}
+
+	public void run(){
 
 	}
 }

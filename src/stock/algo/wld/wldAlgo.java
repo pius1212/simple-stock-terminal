@@ -11,7 +11,7 @@ import java.io.IOException;
 import java.text.DecimalFormat;
 
 public abstract class wldAlgo extends barTest implements Runnable{
-	private static boolean longOpen = true;
+	private static boolean longOpen = false;
 	private static boolean shortOpen = true;
 	private static boolean tradable = true;
 
@@ -36,9 +36,7 @@ public abstract class wldAlgo extends barTest implements Runnable{
 						} catch (IOException | InterruptedException e) {
 							e.printStackTrace();
 						}
-					}
-
-					if(!isLongPos && longOpen){
+					} else if(!isLongPos && longOpen){
 						longOpen = false;
 						shortOpen = true;
 						try {

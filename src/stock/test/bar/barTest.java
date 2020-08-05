@@ -50,8 +50,8 @@ public class barTest {
 
     public static String APIkey = "AKKD80XYTBL1XEVJ7ZQI";
     public static String secret = "m1cQC82sSM7dTowwQB1fILwo075KOzEDoEEXptcF";
-    public static String pAPIkey = "PKWZ29UVJ5EE2IGSHN6C";
-    public static String psecret = "4dxBWhILHEsxaQf/62LYkDi30pM4UCpqC/1dTBCz";
+    public static String pAPIkey = "PK1NVCKPN2WN1OKUROU1";
+    public static String psecret = "oGT88PQDZPxjlayLyxgWDoti2hLpHo3W7s9gFmSD";
 
     public static int rsibuy = 28;
     public static int rsisell = 72;
@@ -316,7 +316,7 @@ public class barTest {
         imGui.setWindowSize("Details", 410, 200);
         imGui.begin("Details");
 
-        float cursorPosX = imGui.getWindowPosX();
+        float cursorPosX = imGui.getWindowPosX();   
         float cursorPosY = imGui.getWindowPosY();
 
         JImDrawList dl = imGui.findWindowDrawList();
@@ -406,12 +406,12 @@ public class barTest {
         alpacaListener al = new alpacaListener(new URI(endpoint), ticker, APIkey, secret);
         al.connect();
 
-        stockListener client = new stockListener(new URI("wss://ws.finnhub.io?token=bqk6knnrh5r9t8htfof0"), ticker );
-        client.connect();
+//        stockListener client = new stockListener(new URI("wss://ws.finnhub.io?token=bqk6knnrh5r9t8htfof0"), ticker );
+//        client.connect();
 
         polygonListener pl = new polygonListener(new URI("wss://socket.polygon.io/stocks"), ticker, APIkey);
         pl.connect();
-        //wldAlgo.wldAlgo(ticker);
+        wldAlgo.wldAlgo(ticker);
 
         System.out.println(rsi.size());
 
@@ -427,7 +427,7 @@ public class barTest {
                 String formattedDate = myDateObj.format(myFormatObj);
                 time = myDateObj.format(myFormatObj2);
 
-                client.forwardData(al);
+//                client.forwardData(al);
                 pl.forwardData(al);
 
                 stockDescription(imGui, al);

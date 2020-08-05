@@ -27,7 +27,6 @@ public class polygonListener extends WebSocketClient {
 	static int askSize;
 	public static double price;
 
-
 	public polygonListener(URI serverUri, String ticker, String key) {
 		super(serverUri);
 		this.ticker = ticker;

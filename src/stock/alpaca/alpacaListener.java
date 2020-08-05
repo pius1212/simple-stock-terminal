@@ -64,48 +64,53 @@ public class alpacaListener extends WebSocketClient {
     }
 
     @Override
+    public void onMessage(String s) {
+
+    }
+
+    @Override
     public void onClose(int code, String reason, boolean remote) {
         System.out.println("closed with exit code " + code + " additional info: " + reason);
     }
 
-    @Override
-    public void onMessage(String message) {
-        //System.out.println("received message: " + message);
-        if (message.equals("{\"stream\":\"authorization\",\"data\":{\"action\":\"authenticate\",\"status\":\"authorized\"}}")) {
-            send("{" + "\"action\": \"listen\"," + "\"data\": {" + " \"streams\": [\"T." + ticker + "\", \"Q." + ticker + "\", \"AM." + ticker + "\"]" + "}" + "}");
-        } else {
-            JSONObject json = new JSONObject(message);
-            JSONObject json1 = json.getJSONObject("data");
-
-            if (json1.get("ev").equals("Q")) {
-                bidPrice = json1.getDouble("p");
-                bidSize = json1.getInt("s");
-                askPrice = json1.getDouble("P");
-                askSize = json1.getInt("s");
-            } else if (json1.get("ev").equals("T")) {
-                long unixSeconds = json1.getLong("t");
-                Date date = new java.util.Date(Long.valueOf(unixSeconds / 1000000));
-                SimpleDateFormat sdf = new java.text.SimpleDateFormat("HH:mm:ss");
-                sdf.setTimeZone(java.util.TimeZone.getTimeZone("GMT-4"));
-                String formattedDate = sdf.format(date);
-
-                printTime.add(formattedDate);
-                printVolume.add(json1.getInt("s"));
-                printPrice.add(json1.getDouble("p"));
-                price = json1.getDouble("p");
-                barTest.priceNow = price;
-                barTest.liveBar.update(price);
-
-            } else {
-                int volume = json1.getInt("v");
-                double open = json1.getDouble("o");
-                double close = json1.getDouble("c");
-                double high = json1.getDouble("h");
-                double low = json1.getDouble("l");
-                double vwap = json1.getDouble("vw");
-            }
-        }
-    }
+//    @Override
+//    public void onMessage(String message) {
+//        //System.out.println("received message: " + message);
+//        if (message.equals("{\"stream\":\"authorization\",\"data\":{\"action\":\"authenticate\",\"status\":\"authorized\"}}")) {
+//            send("{" + "\"action\": \"listen\"," + "\"data\": {" + " \"streams\": [\"T." + ticker + "\", \"Q." + ticker + "\", \"AM." + ticker + "\"]" + "}" + "}");
+//        } else {
+//            JSONObject json = new JSONObject(message);
+//            JSONObject json1 = json.getJSONObject("data");
+//
+//            if (json1.get("ev").equals("Q")) {
+//                bidPrice = json1.getDouble("p");
+//                bidSize = json1.getInt("s");
+//                askPrice = json1.getDouble("P");
+//                askSize = json1.getInt("s");
+//            } else if (json1.get("ev").equals("T")) {
+//                long unixSeconds = json1.getLong("t");
+//                Date date = new java.util.Date(Long.valueOf(unixSeconds / 1000000));
+//                SimpleDateFormat sdf = new java.text.SimpleDateFormat("HH:mm:ss");
+//                sdf.setTimeZone(java.util.TimeZone.getTimeZone("GMT-4"));
+//                String formattedDate = sdf.format(date);
+//
+//                printTime.add(formattedDate);
+//                printVolume.add(json1.getInt("s"));
+//                printPrice.add(json1.getDouble("p"));
+//                price = json1.getDouble("p");
+//                barTest.priceNow = price;
+//                barTest.liveBar.update(price);
+//
+//            } else {
+//                int volume = json1.getInt("v");
+//                double open = json1.getDouble("o");
+//                double close = json1.getDouble("c");
+//                double high = json1.getDouble("h");
+//                double low = json1.getDouble("l");
+//                double vwap = json1.getDouble("vw");
+//            }
+//        }
+//    }
 
 //    @Override
 //    public void onMessage(ByteBuffer message) {
