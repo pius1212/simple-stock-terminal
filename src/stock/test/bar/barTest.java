@@ -57,6 +57,8 @@ public class barTest {
     public static int rsisell = 72;
     public static int getBarCount = 100;
     public static double priceNow = 0.00;
+    public static double bidNow = 0.00;
+    public static double askNow = 0.00;
 
     public static String time = "";
 
@@ -268,6 +270,9 @@ public class barTest {
         double o;
         double c;
 
+        double bid = ((bidNow - pl) / ratio) * 670;
+        double ask = ((askNow - pl) / ratio) * 670;
+
         if(liveBar.isActive()){
             h = ((liveBar.getHigh() - pl) / ratio) * 670;
             l = ((liveBar.getLow() - pl) / ratio) * 670;
@@ -300,9 +305,17 @@ public class barTest {
         }
 
         //TODO: the line for the price because you have dementia || somehow make it dotted because this gives me aids
+        dl.addLine(cursorPosX + 11, cursorPosY + 670 - (float) ask + 30, cursorPosX + 57 + ((adjust - 30) * 20), cursorPosY + 670 - (float) ask + 30, colors.red, 1);
+        dl.addRectFilled(cursorPosX + 55 + ((adjust - 30) * 20), cursorPosY + 670 - (float) ask + 22, cursorPosX + 120 + ((adjust - 30) * 20), cursorPosY + 670 - (float) ask + 39f, colors.red);//22, 38
+        dl.addText(13, cursorPosX + 58 + ((adjust - 30) * 20), cursorPosY + 670 - (float) ask + 24 , Color.BLACK.getRGB(), String.valueOf(askNow));
+
+        dl.addLine(cursorPosX + 11, cursorPosY + 670 - (float) bid + 30, cursorPosX + 57 + ((adjust - 30) * 20), cursorPosY + 670 - (float) bid + 30, colors.blue, 1);
+        dl.addRectFilled(cursorPosX + 55 + ((adjust - 30) * 20), cursorPosY + 670 - (float) bid + 22, cursorPosX + 120 + ((adjust - 30) * 20), cursorPosY + 670 - (float) bid + 39f, colors.blue);//22, 38
+        dl.addText(13, cursorPosX + 58 + ((adjust - 30) * 20), cursorPosY + 670 - (float) bid + 24 , Color.BLACK.getRGB(), String.valueOf(bidNow));
+
         dl.addLine(cursorPosX + 11, cursorPosY + 670 - (float) c + 30, cursorPosX + 57 + ((adjust - 30) * 20), cursorPosY + 670 - (float) c + 30, temp, 1);
-        //testing text sample
         dl.addRectFilled(cursorPosX + 55 + ((adjust - 30) * 20), cursorPosY + 670 - (float) c + 22, cursorPosX + 120 + ((adjust - 30) * 20), cursorPosY + 670 - (float) c + 39f, temp); //22, 38
+
 
         if(liveBar.isActive())
             dl.addText(13, cursorPosX + 58 + ((adjust - 30) * 20), cursorPosY + 670 - (float) c + 24 , Color.BLACK.getRGB(), String.valueOf(liveBar.getNow()));
@@ -315,11 +328,6 @@ public class barTest {
         imGui.setNextWindowPos(1510, 20);
         imGui.setWindowSize("Details", 410, 200);
         imGui.begin("Details");
-
-        float cursorPosX = imGui.getWindowPosX();   
-        float cursorPosY = imGui.getWindowPosY();
-
-        JImDrawList dl = imGui.findWindowDrawList();
 
         String sector = "";
         String mktcap = "";
@@ -340,10 +348,33 @@ public class barTest {
         if(!dsc.isEmpty())
             imGui.textWrapped("Description: " + dsc);
 
+        imGui.end();
+    }
+
+    public static void priceWindow(JImGui imGui){
+        imGui.begin("Live Price");
+        JImDrawList dl = imGui.findWindowDrawList();
+
+        float cursorPosX = imGui.getWindowPosX();
+        float cursorPosY = imGui.getWindowPosY();
+
+        int temp;
+
+        if (bidNow == priceNow){
+            temp = colors.red;
+            dl.addRectFilled(cursorPosX + 100, cursorPosY + 100, cursorPosX + 150 , cursorPosY + 150, temp); //22, 38
+        } else if(askNow == priceNow){
+            temp = colors.green;
+            dl.addRectFilled(cursorPosX + 100, cursorPosY + 100, cursorPosX + 150 , cursorPosY + 150, temp); //22, 38
+        } else {
+            temp = colors.white;
+        }
+
         if(priceNow == 0)
-            dl.addText(22, 300 + cursorPosX, 23 + cursorPosY, barColor, String.valueOf(bars.get(99).getClose()));
+            dl.addText(22, 23 + cursorPosX, 23 + cursorPosY, temp, String.valueOf(bars.get(99).getClose()));
         else
-            dl.addText(22, 300 + cursorPosX, 23 + cursorPosY, barColor, String.valueOf(priceNow));
+            dl.addText(22, 23 + cursorPosX, 23 + cursorPosY, temp, String.valueOf(priceNow));
+
         imGui.end();
     }
 
@@ -377,7 +408,7 @@ public class barTest {
 
     public static void main(String[] args) throws IOException, InterruptedException, URISyntaxException {
         String endpoint = "wss://data.alpaca.markets/stream";
-        String ticker = "SPY";
+        String ticker = "GE";
 
         barHandler.updateBars(ticker, APIkey, secret);
         alpacaPositions.updatePositionsAndOrders(pAPIkey, psecret);
@@ -404,10 +435,7 @@ public class barTest {
         NativeBool WLDA = new NativeBool();
 
         alpacaListener al = new alpacaListener(new URI(endpoint), ticker, APIkey, secret);
-        al.connect();
-
-//        stockListener client = new stockListener(new URI("wss://ws.finnhub.io?token=bqk6knnrh5r9t8htfof0"), ticker );
-//        client.connect();
+//        al.connect();
 
         polygonListener pl = new polygonListener(new URI("wss://socket.polygon.io/stocks"), ticker, APIkey);
         pl.connect();
@@ -434,7 +462,7 @@ public class barTest {
                 renderBars(ticker, APIkey, secret, imGui, RSI, WLD);
                 al.renderListener(ticker, imGui);
                 MenuBar(imGui, WLD, WLDA);
-                wldTest(imGui);
+                priceWindow(imGui);
 
                 alpacaPositions.renderPositionsAndOrders(imGui, al.getPrice(), rsibuy, rsisell, formattedDate);
                 imGui.render();

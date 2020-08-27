@@ -24,7 +24,7 @@ public abstract class wldAlgo extends barTest implements Runnable{
 			}
 			while (true) {
 				//if(tradable){
-					System.out.println("Long: " + longOpen + " | Short: " + shortOpen + " | Latest Wld: " + latestWld + " | Latest bar close: " + latestBar + " | live price: " + liveBar.getNow());
+					//System.out.println("Long: " + longOpen + " | Short: " + shortOpen + " | Latest Wld: " + latestWld + " | Latest bar close: " + latestBar + " | live price: " + liveBar.getNow());
 
 					if(isLongPos && shortOpen){
 						longOpen = true;

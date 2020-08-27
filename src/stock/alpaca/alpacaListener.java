@@ -172,7 +172,7 @@ public class alpacaListener extends WebSocketClient {
 
             imGui.columns(3, "printAndBA", true);
 
-            imGui.textColored(JImVec4.fromHSV(3 / 7.0f, 0.8f, 0.8f), "Bid: " + bidPrice + " x " + bidSize);
+            imGui.textColored(JImVec4.fromHSV(3 / 7.0f, 0.8f, 0.8f), "Bid: " + bidPrice + " x " + bidSize*100);
 
             imGui.nextColumn();
 
@@ -181,51 +181,37 @@ public class alpacaListener extends WebSocketClient {
             imGui.text("Spread: " + df.format((askPrice - bidPrice)));
 
             imGui.nextColumn();
-            imGui.textColored(JImVec4.fromHSV(7.0f, 0.8f, 0.8f), "Ask: " + askPrice + " x " + askSize);
+            imGui.textColored(JImVec4.fromHSV(7.0f, 0.8f, 0.8f), "Ask: " + askPrice + " x " + askSize*100);
 
             imGui.nextColumn();
             imGui.separator();
 
-            double temp = 0;
-
             for (int i = printPrice.size() - 1; i >= 0; i--) {
-                if (temp > printPrice.get(i)) {
+                if(bidPrice == printPrice.get(i)){
                     imGui.textColored(JImVec4.fromHSV(7.0f, 0.8f, 0.8f), String.valueOf(printPrice.get(i)));
-                    temp = printPrice.get(i);
-                    isRed = true;
-                } else if (temp < printPrice.get(i)) {
-                    imGui.textColored(JImVec4.fromHSV(3 / 7.0f, 0.8f, 0.8f), String.valueOf(printPrice.get(i)));
-                    temp = printPrice.get(i);
-                    isRed = false;
-                } else {
-                    if (isRed) {
-                        imGui.textColored(JImVec4.fromHSV(7.0f, 0.8f, 0.8f), String.valueOf(printPrice.get(i)));
-                    } else {
-                        imGui.textColored(JImVec4.fromHSV(3 / 7.0f, 0.8f, 0.8f), String.valueOf(printPrice.get(i)));
-                    }
-                    temp = printPrice.get(i);
-                }
-            }
-            imGui.nextColumn();
-            for (int i = printVolume.size() - 1; i >= 0; i--) {
-                if (temp > printVolume.get(i)) {
+                    imGui.nextColumn();
                     imGui.textColored(JImVec4.fromHSV(7.0f, 0.8f, 0.8f), String.valueOf(printVolume.get(i)));
-                    temp = printVolume.get(i);
-                } else if (temp < printVolume.get(i)) {
+                    imGui.nextColumn();
+                    imGui.text(printTime.get(i));
+                    imGui.nextColumn();
+
+                } else if(askPrice == printPrice.get(i)){
+                    imGui.textColored(JImVec4.fromHSV(3 / 7.0f, 0.8f, 0.8f), String.valueOf(printPrice.get(i)));
+                    imGui.nextColumn();
                     imGui.textColored(JImVec4.fromHSV(3 / 7.0f, 0.8f, 0.8f), String.valueOf(printVolume.get(i)));
-                    temp = printVolume.get(i);
+                    imGui.nextColumn();
+                    imGui.text(printTime.get(i));
+                    imGui.nextColumn();
+
                 } else {
-                    if (isRed) {
-                        imGui.textColored(JImVec4.fromHSV(7.0f, 0.8f, 0.8f), String.valueOf(printVolume.get(i)));
-                    } else {
-                        imGui.textColored(JImVec4.fromHSV(3 / 7.0f, 0.8f, 0.8f), String.valueOf(printVolume.get(i)));
-                    }
-                    temp = printVolume.get(i);
+                    imGui.text(String.valueOf(printPrice.get(i)));
+                    imGui.nextColumn();
+                    imGui.text(String.valueOf(printVolume.get(i)));
+                    imGui.nextColumn();
+                    imGui.text(printTime.get(i));
+                    imGui.nextColumn();
+
                 }
-            }
-            imGui.nextColumn();
-            for (int i = printTime.size() - 1; i >= 0; i--) {
-                imGui.text(printTime.get(i));
             }
         imGui.end();
     }

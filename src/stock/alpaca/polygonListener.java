@@ -47,7 +47,7 @@ public class polygonListener extends WebSocketClient {
 
 	@Override
 	public void onMessage(String message) {
-		//System.out.println("received message: " + message);
+		System.out.println("received message: " + message);
 
 		if (message.equals("[{\"ev\":\"status\",\"status\":\"auth_success\",\"message\":\"authenticated\"}]")) {
 			send("{\"action\":\"subscribe\",\"params\":\"T." + ticker + "\"}");
@@ -66,6 +66,8 @@ public class polygonListener extends WebSocketClient {
 				printPrice.add(json.getDouble("p"));
 				price = json.getDouble("p");
 				barTest.priceNow = price;
+				barTest.bidNow = bidPrice;
+				barTest.askNow = askPrice;
 				barTest.liveBar.update(price);
 			}
 		}
