@@ -15,7 +15,7 @@ instanceKlass sun/util/locale/provider/JRELocaleProviderAdapter$$Lambda$63
 instanceKlass java/util/Calendar
 instanceKlass org/java_websocket/framing/FramedataImpl1$1
 instanceKlass sun/security/ssl/Alert$AlertConsumer
-instanceKlass stock/newsObject
+instanceKlass v1.stock/newsObject
 instanceKlass java/lang/invoke/LambdaForm$MH
 instanceKlass java/lang/invoke/LambdaForm$MH
 instanceKlass java/lang/invoke/LambdaForm$MH
@@ -86,7 +86,7 @@ instanceKlass java/time/Clock
 instanceKlass java/time/LocalTime
 instanceKlass java/time/LocalDateTime
 instanceKlass java/time/chrono/ChronoLocalDateTime
-instanceKlass stock/etf
+instanceKlass v1.stock/etf
 instanceKlass java/lang/invoke/LambdaForm$MH
 instanceKlass java/lang/invoke/LambdaForm$DMH
 instanceKlass java/lang/invoke/LambdaForm$MH
@@ -234,7 +234,7 @@ instanceKlass java/lang/invoke/LambdaForm$MH
 instanceKlass java/lang/invoke/LambdaForm$MH
 instanceKlass java/lang/invoke/LambdaForm$MH
 instanceKlass java/lang/invoke/LambdaForm$MH
-instanceKlass stock/getStockData
+instanceKlass v1.stock/getStockData
 instanceKlass java/util/regex/Pattern$2
 instanceKlass org/json/JSONString
 instanceKlass org/json/JSONObject$Null
@@ -1060,7 +1060,7 @@ instanceKlass java/net/spi/URLStreamHandlerProvider
 instanceKlass java/util/regex/Pattern$$Lambda$20
 instanceKlass java/net/URL$1
 instanceKlass java/net/URL$2
-instanceKlass stock/JsonReader
+instanceKlass v1.stock/JsonReader
 instanceKlass java/util/regex/Pattern$BitClass$$Lambda$19
 instanceKlass sun/nio/fs/Globs
 instanceKlass sun/nio/fs/WindowsDirectoryStream
@@ -1369,7 +1369,7 @@ instanceKlass java/net/InetAddressImpl
 instanceKlass java/net/InetAddressImplFactory
 instanceKlass java/util/concurrent/ConcurrentSkipListMap$Node
 instanceKlass java/util/TimerTask
-instanceKlass stock/SPY
+instanceKlass v1.stock/SPY
 instanceKlass java/util/concurrent/ConcurrentSkipListMap$Index
 instanceKlass java/util/concurrent/ConcurrentNavigableMap
 instanceKlass java/util/NavigableMap

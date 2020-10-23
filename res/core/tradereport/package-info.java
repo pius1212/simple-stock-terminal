@@ -22,7 +22,7 @@
  * CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
 /**
- * The main module for trade reports
+ * The v2.main module for trade reports
  *
  */
 package org.ta4j.core.tradereport;

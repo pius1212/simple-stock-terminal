@@ -2,106 +2,101 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c7d115da-ed20-46be-83c2-76169d79051b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/discord.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/news/rss/benzinga/gui/newsDashboard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/news/rss/fuck nasdaq" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/news/rss/nasdaq/feed.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/news/rss/nasdaq/item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/news/rss/nasdaq/rssFeedParser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/news/rss/nasdaq/rssType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/screener/main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/screener/marketOverview/gainers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/screener/marketOverview/losers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/screener/snapshot/snapshot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/screener/snapshot/snapshotObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/screener/snapshot/timer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stock/global/apiCredentials.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stock/handler/changeTicker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stock/test/rss/test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/template/imGuiMain/textBox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/imGui/textBox.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/alpaca_java_5_0_12.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hs_err_pid10352.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hs_err_pid14424.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hs_err_pid14716.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hs_err_pid14872.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hs_err_pid24904.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hs_err_pid4656.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/imgui.ini" beforeDir="false" afterPath="$PROJECT_DIR$/imgui.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/stockimgui_jar/stockimgui.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/stockimgui_jar/stockimgui.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/stockimgui/META-INF/stockimgui.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/stockimgui/stock/JsonReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/stockimgui/stock/JsonReader.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/stockimgui/stock/alpaca/SoundJLayerXY.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/stockimgui/stock/alpaca/alpacaListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/stockimgui/stock/alpaca/alpacaListener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/stockimgui/stock/alpaca/alpacaMain$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/stockimgui/stock/alpaca/alpacaMain$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/stockimgui/stock/alpaca/alpacaMain$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/stockimgui/stock/alpaca/alpacaMain$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/stockimgui/stock/alpaca/alpacaMain.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/stockimgui/stock/alpaca/alpacaStock.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/stockimgui/stock/alpaca/alpacaStock.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/stockimgui/stock/alpaca/polygonListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/stockimgui/stock/alpaca/polygonTickerDetailed.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/stockimgui/stock/etf/SPY$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/stockimgui/stock/etf/SPY$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/stockimgui/stock/etf/SPY$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/stockimgui/stock/etf/SPY$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/stockimgui/stock/etf/SPY.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/stockimgui/stock/etf/SoundJLayerX.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/stockimgui/stock/etf/etf.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/stockimgui/stock/etf/newsETF.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/stockimgui/stock/rss/feed.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/stockimgui/stock/rss/feedMessage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/stockimgui/stock/rss/rssFeedParser.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/stockimgui/stock/rss/rssTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/stockimgui/stock/stock.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/stockimgui/stock/stock.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/stockimgui/stock/stockListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/stockimgui/stock/test/bar/barTest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/stockimgui/stock/test/bar/barTest$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/stockimgui/stock/test/bar/barTest$barDataRead.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/stockimgui/stock/test/bar/barTest$barDataRead.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/stockimgui/stock/test/bar/barTest$barLength.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/stockimgui/stock/test/bar/barTest$barLength.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/stockimgui/stock/test/bar/barTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/stockimgui/stock/test/bar/barTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/stockimgui/test/marketOverview/main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/stockimgui/test/marketOverview/main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/stockimgui/test/polygon/rest/crypto/crypto.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/stockimgui/test/polygon/rest/forexCurrrencies/forexCurrencies.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/stockimgui/test/polygon/rest/reference/marketstatus.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/stockimgui/test/polygon/rest/reference/meta.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/stockimgui/test/polygon/rest/reference/reference.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/stockimgui/test/polygon/rest/stocksEquities/aggs.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/stockimgui/test/polygon/rest/stocksEquities/last.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/stockimgui/test/polygon/rest/stocksEquities/lastQuote.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/stockimgui/test/polygon/rest/stocksEquities/meta.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/stockimgui/test/polygon/rest/stocksEquities/snapshot.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/stockimgui/test/polygon/rest/stocksEquities/stocksEquities.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/stockimgui/test/polygon/rest/stocksEquities/ticks.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/core/num/NaN.java" beforeDir="false" afterPath="$PROJECT_DIR$/res/core/num/NaN.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stock/JsonReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stock/JsonReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stock/alpaca/alpacaListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stock/alpaca/alpacaListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stock/alpaca/alpacaMain.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stock/alpaca/polygonListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stock/polygon/polygonListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stock/alpaca/polygonTickerDetailed.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stock/polygon/polygonTickerDetailed.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stock/etf/SPY.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stock/etf/etf.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stock/etf/newsETF.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stock/rss/feed.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/news/rss/benzinga/feed.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stock/rss/feedMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/news/rss/benzinga/feedMessage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stock/rss/rssFeedParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/news/rss/benzinga/rssFeedParser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stock/rss/rssTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/news/rss/benzinga/rssTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stock/stock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stock/stock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stock/stockListener.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stock/test/bar/barTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stock/test/bar/barTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/marketOverview/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/marketOverview/main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/polygon/rest/crypto/crypto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/polygon/rest/crypto/crypto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/polygon/rest/forexCurrrencies/forexCurrencies.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/polygon/rest/forexCurrrencies/forexCurrencies.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/polygon/rest/reference/marketstatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/polygon/rest/reference/marketstatus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/polygon/rest/reference/meta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/polygon/rest/reference/meta.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/polygon/rest/reference/reference.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/polygon/rest/reference/reference.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/polygon/rest/stocksEquities/aggs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/polygon/rest/stocksEquities/aggs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/polygon/rest/stocksEquities/last.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/polygon/rest/stocksEquities/last.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/polygon/rest/stocksEquities/lastQuote.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/polygon/rest/stocksEquities/lastQuote.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/polygon/rest/stocksEquities/meta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/polygon/rest/stocksEquities/meta.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/polygon/rest/stocksEquities/snapshot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/polygon/rest/stocksEquities/snapshot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/polygon/rest/stocksEquities/stocksEquities.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/polygon/rest/stocksEquities/stocksEquities.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/polygon/rest/stocksEquities/ticks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/polygon/rest/stocksEquities/ticks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/replay_pid23156.log" beforeDir="false" afterPath="$PROJECT_DIR$/replay_pid23156.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/core/tradereport/package-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/res/core/tradereport/package-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/core/trading/rules/InSlopeRule.java" beforeDir="false" afterPath="$PROJECT_DIR$/res/core/trading/rules/InSlopeRule.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Scratch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/v2/main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/news/rss/benzinga/feed.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/v1/rss/benzinga/feed.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/news/rss/benzinga/feedMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/v1/rss/benzinga/feedMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/news/rss/benzinga/gui/newsDashboard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/v1/rss/benzinga/gui/newsDashboard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/news/rss/benzinga/rssFeedParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/v1/rss/benzinga/rssFeedParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/news/rss/benzinga/rssTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/v1/rss/benzinga/rssTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/news/rss/fuck nasdaq" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/v1/rss/fuck nasdaq" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/news/rss/nasdaq/feed.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/v1/rss/nasdaq/feed.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/news/rss/nasdaq/item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/v1/rss/nasdaq/item.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/news/rss/nasdaq/rssFeedParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/v1/rss/nasdaq/rssFeedParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/news/rss/nasdaq/rssType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/v1/rss/nasdaq/rssType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/polygon/rest/crypto/crypto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/v1/polygon/rest/crypto/crypto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/polygon/rest/forexCurrrencies/forexCurrencies.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/v1/polygon/rest/forexCurrrencies/forexCurrencies.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/polygon/rest/reference/marketstatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/v1/polygon/rest/reference/marketstatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/polygon/rest/reference/meta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/v1/polygon/rest/reference/meta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/polygon/rest/reference/reference.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/v1/polygon/rest/reference/reference.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/polygon/rest/stocksEquities/aggs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/v1/polygon/rest/stocksEquities/aggs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/polygon/rest/stocksEquities/last.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/v1/polygon/rest/stocksEquities/last.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/polygon/rest/stocksEquities/lastQuote.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/v1/polygon/rest/stocksEquities/lastQuote.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/polygon/rest/stocksEquities/meta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/v1/polygon/rest/stocksEquities/meta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/polygon/rest/stocksEquities/snapshot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/v1/polygon/rest/stocksEquities/snapshot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/polygon/rest/stocksEquities/stocksEquities.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/v1/polygon/rest/stocksEquities/stocksEquities.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/polygon/rest/stocksEquities/ticks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/v1/polygon/rest/stocksEquities/ticks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screener/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/v1/screener/main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screener/marketOverview/gainers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/v1/screener/marketOverview/gainers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screener/marketOverview/losers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/v1/screener/marketOverview/losers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screener/snapshot/snapshot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/v1/screener/snapshot/snapshot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screener/snapshot/snapshotObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/v1/screener/snapshot/snapshotObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screener/snapshot/timer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/v1/screener/snapshot/timer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stock/JavaSoundAudioDevice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/v1/stock/JavaSoundAudioDevice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stock/JsonReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/v1/stock/JsonReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stock/algo/abstractAlgo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/v1/stock/algo/abstractAlgo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stock/algo/custom/customAlgo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/v1/stock/algo/custom/customAlgo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stock/algo/custom/shortcuts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/v1/stock/algo/custom/shortcuts.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stock/algo/custom/shortcutsWithData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/v1/stock/algo/custom/shortcutsWithData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stock/algo/logTrades/log.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/v1/stock/algo/logTrades/log.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stock/algo/rsi/rsiSimpleAlgo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/v1/stock/algo/rsi/rsiSimpleAlgo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stock/algo/wld/wldAlgo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/v1/stock/algo/wld/wldAlgo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stock/alpaca/alpacaBar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/v1/stock/alpaca/alpacaBar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stock/alpaca/alpacaIndicatorData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/v1/stock/alpaca/alpacaIndicatorData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stock/alpaca/alpacaListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/v1/stock/alpaca/alpacaListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stock/alpaca/alpacaOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/v1/stock/alpaca/alpacaOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stock/alpaca/alpacaPositions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/v1/stock/alpaca/alpacaPositions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stock/alpaca/alpacaRESTConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/v1/stock/alpaca/alpacaRESTConnection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stock/alpaca/alpacaStock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/v1/stock/alpaca/alpacaStock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stock/fileIO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/v1/stock/fileIO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stock/getStockData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/v1/stock/getStockData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stock/global/apiCredentials.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/v1/stock/global/apiCredentials.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stock/global/barInstance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/v1/stock/global/barInstance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stock/global/colors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/v1/stock/global/colors.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stock/global/image.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/v1/stock/global/image.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stock/handler/changeTicker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/v1/stock/handler/changeTicker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stock/newsObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/v1/stock/newsObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stock/polygon/polygonListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/v1/stock/polygon/polygonListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stock/polygon/polygonTickerDetailed.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/v1/stock/polygon/polygonTickerDetailed.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stock/stock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/v1/stock/stock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stock/terminal/terminalMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/v1/stock/terminal/terminalMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stock/test/bar/bar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/v1/stock/test/bar/bar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stock/test/bar/barHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/v1/stock/test/bar/barHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stock/test/bar/barTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/v1/stock/test/bar/barTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stock/test/bar/liveBar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/v1/stock/test/bar/liveBar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stock/test/indicator/buySell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/v1/stock/test/indicator/buySell.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stock/test/indicator/rsiHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/v1/stock/test/indicator/rsiHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stock/test/indicator/smaHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/v1/stock/test/indicator/smaHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stock/test/indicator/supres.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/v1/stock/test/indicator/supres.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stock/test/rss/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/v1/stock/test/rss/test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/template/imGuiMain/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/v1/template/imGuiMain/main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/template/imGuiMain/textBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/v1/template/imGuiMain/textBox.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/fundamentalsGui/fundamentalUnit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/v1/test/fundamentalsGui/fundamentalUnit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/fundamentalsGui/fundamentals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/v1/test/fundamentalsGui/fundamentals.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/fundamentalsGui/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/v1/test/fundamentalsGui/main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/imGui/textBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/v1/test/imGui/textBox.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/marketOverview/gainers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/v1/test/marketOverview/gainers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/marketOverview/losers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/v1/test/marketOverview/losers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/marketOverview/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/v1/test/marketOverview/main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/marketOverview/snapshot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/v1/test/marketOverview/snapshot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/marketOverview/snapshotObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/v1/test/marketOverview/snapshotObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/newsGui/clock/rssUpdateClock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/v1/test/newsGui/clock/rssUpdateClock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/newsGui/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/v1/test/newsGui/main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/newsGui/rss/feed.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/v1/test/newsGui/rss/feed.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/newsGui/rss/feedMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/v1/test/newsGui/rss/feedMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/newsGui/rss/rssFeedParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/v1/test/newsGui/rss/rssFeedParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/newsGui/rss/rssTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/v1/test/newsGui/rss/rssTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/stockimgui.iml" beforeDir="false" afterPath="$PROJECT_DIR$/stockimgui.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -157,17 +152,18 @@
       <recent name="etf" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Dell Precision\IdeaProjects\stockimgui\src\v1" />
       <recent name="C:\Users\Dell Precision\IdeaProjects\stockimgui\res" />
     </key>
   </component>
   <component name="RunManager" selected="Application.barTest">
     <configuration name="barTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stock.test.bar.barTest" />
+      <option name="MAIN_CLASS_NAME" value="v1.stock.test.bar.barTest" />
       <module name="stockimgui" />
       <option name="VM_PARAMETERS" value="-Dmaven.wagon.http.ssl.insecure=true -Dmaven.wagon.http.ssl.allowall=true " />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stock.test.bar.*" />
+          <option name="PATTERN" value="v1.stock.test.bar.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -177,11 +173,11 @@
       </method>
     </configuration>
     <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="screener.main" />
+      <option name="MAIN_CLASS_NAME" value="v1.screener.main" />
       <module name="stockimgui" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="screener.*" />
+          <option name="PATTERN" value="v1.screener.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -191,11 +187,11 @@
       </method>
     </configuration>
     <configuration name="rssTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="news.rss.benzinga.rssTest" />
+      <option name="MAIN_CLASS_NAME" value="v1.rss.benzinga.rssTest" />
       <module name="stockimgui" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="news.rss.benzinga.*" />
+          <option name="PATTERN" value="v1.rss.benzinga.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -205,11 +201,11 @@
       </method>
     </configuration>
     <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stock.test.rss.test" />
+      <option name="MAIN_CLASS_NAME" value="v1.stock.test.rss.test" />
       <module name="stockimgui" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stock.test.rss.*" />
+          <option name="PATTERN" value="v1.stock.test.rss.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -219,11 +215,11 @@
       </method>
     </configuration>
     <configuration name="textBox" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.imGui.textBox" />
+      <option name="MAIN_CLASS_NAME" value="v1.test.imGui.textBox" />
       <module name="stockimgui" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.imGui.*" />
+          <option name="PATTERN" value="v1.test.imGui.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -296,7 +292,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598537796468</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="add some nerdy stuff">
+      <created>1603421937733</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1603421937733</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -335,10 +338,10 @@
     </state>
     <state x="2131" y="-173" key="#com.intellij.ide.util.MemberChooser/0.0.1366.768/1366.-423.1920.1080@1366.-423.1920.1080" timestamp="1602604394722" />
     <state x="2131" y="-215" key="#com.intellij.ide.util.MemberChooser/0.0.1366.768/1366.-465.1920.1080@1366.-465.1920.1080" timestamp="1596466726229" />
-    <state x="2049" y="-193" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1598968480766">
+    <state x="2049" y="-193" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1603422115390">
       <screen x="1366" y="-423" width="1920" height="1080" />
     </state>
-    <state x="2049" y="-193" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1366.768/1366.-423.1920.1080@1366.-423.1920.1080" timestamp="1598968480766" />
+    <state x="2049" y="-193" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1366.768/1366.-423.1920.1080@1366.-423.1920.1080" timestamp="1603422115390" />
     <state x="2049" y="-235" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1366.768/1366.-465.1920.1080@1366.-465.1920.1080" timestamp="1595559661391" />
     <state x="2122" y="-39" width="408" height="237" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1595467360998">
       <screen x="1366" y="-465" width="1920" height="1080" />
@@ -348,9 +351,10 @@
       <screen x="1366" y="-465" width="1920" height="1080" />
     </state>
     <state x="2056" y="-177" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.768/1366.-465.1920.1080@1366.-465.1920.1080" timestamp="1598276460044" />
-    <state x="1968" y="-330" key="CommitChangelistDialog2" timestamp="1598537794613">
-      <screen x="1366" y="-465" width="1920" height="1080" />
+    <state x="1968" y="-288" key="CommitChangelistDialog2" timestamp="1603421935991">
+      <screen x="1366" y="-423" width="1920" height="1080" />
     </state>
+    <state x="1968" y="-288" key="CommitChangelistDialog2/0.0.1366.768/1366.-423.1920.1080@1366.-423.1920.1080" timestamp="1603421935991" />
     <state x="428" y="0" key="CommitChangelistDialog2/0.0.1366.768/1366.-465.1920.1080@0.0.1366.768" timestamp="1595856350200" />
     <state x="1968" y="-330" key="CommitChangelistDialog2/0.0.1366.768/1366.-465.1920.1080@1366.-465.1920.1080" timestamp="1598537794613" />
     <state x="2193" y="-72" key="EnvironmentVariablesDialog" timestamp="1598968559578">
@@ -369,35 +373,35 @@
       <screen x="1366" y="-465" width="1920" height="1080" />
     </state>
     <state x="2086" y="-219" key="Github.UntrackedFilesDialog/0.0.1366.768/1366.-465.1920.1080@1366.-465.1920.1080" timestamp="1595560268349" />
-    <state width="1877" height="231" key="GridCell.Tab.0.bottom" timestamp="1603402032476">
+    <state width="1877" height="231" key="GridCell.Tab.0.bottom" timestamp="1603422033014">
       <screen x="1366" y="-423" width="1920" height="1080" />
     </state>
     <state width="1323" height="126" key="GridCell.Tab.0.bottom/0.0.1366.768/1366.-423.1920.1080@0.0.1366.768" timestamp="1600467014387" />
-    <state width="1877" height="231" key="GridCell.Tab.0.bottom/0.0.1366.768/1366.-423.1920.1080@1366.-423.1920.1080" timestamp="1603402032476" />
+    <state width="1877" height="231" key="GridCell.Tab.0.bottom/0.0.1366.768/1366.-423.1920.1080@1366.-423.1920.1080" timestamp="1603422033014" />
     <state width="1323" height="609" key="GridCell.Tab.0.bottom/0.0.1366.768/1366.-465.1920.1080@0.0.1366.768" timestamp="1598381004618" />
     <state width="1877" height="199" key="GridCell.Tab.0.bottom/0.0.1366.768/1366.-465.1920.1080@1366.-465.1920.1080" timestamp="1598458344210" />
     <state width="1323" height="316" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1602433162092" />
-    <state width="1877" height="231" key="GridCell.Tab.0.center" timestamp="1603402032475">
+    <state width="1877" height="231" key="GridCell.Tab.0.center" timestamp="1603422033014">
       <screen x="1366" y="-423" width="1920" height="1080" />
     </state>
     <state width="1323" height="126" key="GridCell.Tab.0.center/0.0.1366.768/1366.-423.1920.1080@0.0.1366.768" timestamp="1600467014387" />
-    <state width="1877" height="231" key="GridCell.Tab.0.center/0.0.1366.768/1366.-423.1920.1080@1366.-423.1920.1080" timestamp="1603402032475" />
+    <state width="1877" height="231" key="GridCell.Tab.0.center/0.0.1366.768/1366.-423.1920.1080@1366.-423.1920.1080" timestamp="1603422033014" />
     <state width="1323" height="609" key="GridCell.Tab.0.center/0.0.1366.768/1366.-465.1920.1080@0.0.1366.768" timestamp="1598381004618" />
     <state width="1877" height="199" key="GridCell.Tab.0.center/0.0.1366.768/1366.-465.1920.1080@1366.-465.1920.1080" timestamp="1598458344210" />
     <state width="1323" height="316" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1602433162092" />
-    <state width="1877" height="231" key="GridCell.Tab.0.left" timestamp="1603402032475">
+    <state width="1877" height="231" key="GridCell.Tab.0.left" timestamp="1603422033014">
       <screen x="1366" y="-423" width="1920" height="1080" />
     </state>
     <state width="1323" height="126" key="GridCell.Tab.0.left/0.0.1366.768/1366.-423.1920.1080@0.0.1366.768" timestamp="1600467014387" />
-    <state width="1877" height="231" key="GridCell.Tab.0.left/0.0.1366.768/1366.-423.1920.1080@1366.-423.1920.1080" timestamp="1603402032475" />
+    <state width="1877" height="231" key="GridCell.Tab.0.left/0.0.1366.768/1366.-423.1920.1080@1366.-423.1920.1080" timestamp="1603422033014" />
     <state width="1323" height="609" key="GridCell.Tab.0.left/0.0.1366.768/1366.-465.1920.1080@0.0.1366.768" timestamp="1598381004618" />
     <state width="1877" height="199" key="GridCell.Tab.0.left/0.0.1366.768/1366.-465.1920.1080@1366.-465.1920.1080" timestamp="1598458344209" />
     <state width="1323" height="316" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1602433162092" />
-    <state width="1877" height="231" key="GridCell.Tab.0.right" timestamp="1603402032476">
+    <state width="1877" height="231" key="GridCell.Tab.0.right" timestamp="1603422033014">
       <screen x="1366" y="-423" width="1920" height="1080" />
     </state>
     <state width="1323" height="126" key="GridCell.Tab.0.right/0.0.1366.768/1366.-423.1920.1080@0.0.1366.768" timestamp="1600467014387" />
-    <state width="1877" height="231" key="GridCell.Tab.0.right/0.0.1366.768/1366.-423.1920.1080@1366.-423.1920.1080" timestamp="1603402032476" />
+    <state width="1877" height="231" key="GridCell.Tab.0.right/0.0.1366.768/1366.-423.1920.1080@1366.-423.1920.1080" timestamp="1603422033014" />
     <state width="1323" height="609" key="GridCell.Tab.0.right/0.0.1366.768/1366.-465.1920.1080@0.0.1366.768" timestamp="1598381004618" />
     <state width="1877" height="199" key="GridCell.Tab.0.right/0.0.1366.768/1366.-465.1920.1080@1366.-465.1920.1080" timestamp="1598458344210" />
     <state width="1323" height="316" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1602433162092" />
@@ -422,10 +426,10 @@
     </state>
     <state x="1897" y="-287" key="SettingsEditor/0.0.1366.768/1366.-423.1920.1080@1366.-423.1920.1080" timestamp="1602545932914" />
     <state x="1897" y="-329" width="1040" height="711" key="SettingsEditor/0.0.1366.768/1366.-465.1920.1080@1366.-465.1920.1080" timestamp="1595560210541" />
-    <state x="1918" y="-149" key="Vcs.Push.Dialog.v2" timestamp="1603421912694">
+    <state x="1918" y="-149" key="Vcs.Push.Dialog.v2" timestamp="1603421946872">
       <screen x="1366" y="-423" width="1920" height="1080" />
     </state>
-    <state x="1918" y="-149" key="Vcs.Push.Dialog.v2/0.0.1366.768/1366.-423.1920.1080@1366.-423.1920.1080" timestamp="1603421912694" />
+    <state x="1918" y="-149" key="Vcs.Push.Dialog.v2/0.0.1366.768/1366.-423.1920.1080@1366.-423.1920.1080" timestamp="1603421946872" />
     <state x="1918" y="-191" key="Vcs.Push.Dialog.v2/0.0.1366.768/1366.-465.1920.1080@1366.-465.1920.1080" timestamp="1598537804639" />
     <state x="467" y="260" key="com.intellij.ide.util.TipDialog" timestamp="1598537759709">
       <screen x="0" y="0" width="1366" height="768" />
