@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="alpaca-java-5.0.12">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/res/alpaca-java-5.0.12.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>

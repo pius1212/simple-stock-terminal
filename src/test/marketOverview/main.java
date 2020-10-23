@@ -13,7 +13,7 @@ public class main {
 	public static String psecret = "oGT88PQDZPxjlayLyxgWDoti2hLpHo3W7s9gFmSD";
 
 	public static void main(String[] args) throws IOException {
-		JSONObject jo = test.polygon.rest.stocksEquities.snapshot.getSnapshotAllTickers(APIkey);
+		JSONObject jo = polygon.rest.stocksEquities.snapshot.getSnapshotAllTickers(APIkey);
 
 		JniLoader.load();
 		try(JImGui imGui = new JImGui()) {

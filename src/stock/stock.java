@@ -1,7 +1,7 @@
 package stock;
 
 import stock.alpaca.alpacaIndicatorData;
-import stock.alpaca.polygonListener;
+import stock.polygon.polygonListener;
 import stock.test.bar.bar;
 import stock.test.bar.liveBar;
 
@@ -36,7 +36,8 @@ public class stock {
 
 	public void socket(polygonListener pl){
 		pl.send("{\"action\":\"subscribe\",\"params\":\"T." + ticker + "\"}");
-		pl.send("{\"action\":\"subscribe\",\"params\":\"Q." + ticker + "\"}");	}
+		pl.send("{\"action\":\"subscribe\",\"params\":\"Q." + ticker + "\"}");
+	}
 
 	public void render(){
 

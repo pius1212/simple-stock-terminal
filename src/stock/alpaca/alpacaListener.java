@@ -3,29 +3,17 @@ package stock.alpaca;
 import java.io.IOException;
 import java.net.URI;
 import java.net.URISyntaxException;
-import java.nio.ByteBuffer;
 import java.text.DecimalFormat;
 import java.text.SimpleDateFormat;
-import java.time.LocalDateTime;
-import java.time.format.DateTimeFormatter;
 import java.util.Date;
 import java.util.List;
-import java.util.Timer;
-import java.util.TimerTask;
 import java.util.concurrent.CopyOnWriteArrayList;
 
 import org.ice1000.jimgui.JImGui;
 import org.ice1000.jimgui.JImVec4;
-import org.ice1000.jimgui.flag.JImCondition;
-import org.ice1000.jimgui.util.JniLoader;
 import org.java_websocket.client.WebSocketClient;
 import org.java_websocket.drafts.Draft;
 import org.java_websocket.handshake.ServerHandshake;
-import org.json.JSONArray;
-import org.json.JSONObject;
-import stock.etf.etf;
-import stock.etf.newsETF;
-import stock.test.bar.barTest;
 
 public class alpacaListener extends WebSocketClient {
     static boolean isRed = false;
@@ -206,7 +194,11 @@ public class alpacaListener extends WebSocketClient {
                 } else {
                     imGui.text(String.valueOf(printPrice.get(i)));
                     imGui.nextColumn();
-                    imGui.text(String.valueOf(printVolume.get(i)));
+                    if(printVolume.get(i) % 100 == 0){
+                        imGui.textColored(JImVec4.fromHSV(2 / 7.0f, 0.8f, 0.8f), String.valueOf(printVolume.get(i)));
+                    } else {
+                        imGui.text(String.valueOf(printVolume.get(i)));
+                    }
                     imGui.nextColumn();
                     imGui.text(printTime.get(i));
                     imGui.nextColumn();

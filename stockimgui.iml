@@ -33,7 +33,6 @@
     <orderEntry type="library" name="Java-WebSocket-1.5.1" level="project" />
     <orderEntry type="library" name="slf4j-api-1.8.0-beta4" level="project" />
     <orderEntry type="library" name="commons-io-2.7" level="project" />
-    <orderEntry type="library" name="alpaca-java-5.0.12" level="project" />
     <orderEntry type="library" name="pngj-2.1.1" level="project" />
     <orderEntry type="library" name="rome-1.0" level="project" />
     <orderEntry type="library" name="jdom-2.0.2" level="project" />

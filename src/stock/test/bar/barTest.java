@@ -1,19 +1,26 @@
+//fuvking isecure
+
 package stock.test.bar;
 
 import org.ice1000.jimgui.*;
 import org.ice1000.jimgui.flag.JImCondition;
+import org.ice1000.jimgui.flag.JImInputTextFlags;
 import org.ice1000.jimgui.util.JniLoader;
 import org.json.JSONException;
 import org.json.JSONObject;
 import stock.algo.wld.wldAlgo;
 import stock.alpaca.*;
-import stock.stockListener;
+import stock.polygon.polygonListener;
+import stock.polygon.polygonTickerDetailed;
 import stock.global.*;
+import stock.handler.changeTicker;
 
+import javax.swing.plaf.synth.SynthOptionPaneUI;
 import java.awt.*;
 import java.io.IOException;
 import java.net.URI;
 import java.net.URISyntaxException;
+import java.nio.charset.StandardCharsets;
 import java.text.DateFormat;
 import java.text.DecimalFormat;
 import java.text.SimpleDateFormat;
@@ -25,6 +32,8 @@ import java.util.List;
 import java.util.concurrent.CopyOnWriteArrayList;
 
 import static stock.algo.custom.shortcuts.*;
+import static stock.global.apiCredentials.APIkey;
+import static stock.global.apiCredentials.secret;
 
 public class barTest {
     public static List < bar > bars = new CopyOnWriteArrayList < bar > ();
@@ -67,13 +76,18 @@ public class barTest {
     public static boolean isWorking = false;
     public static boolean isLongPos = false;
 
+    public static String ticker = new String();
+
+    public static String tickerInput;
+    public static String tickerInputFinal;
+
     public static void renderBars(String ticker, String APIkey, String secret, JImGui imGui, NativeBool RSI, NativeBool WLD) throws IOException, InterruptedException {
         //rgb as int below very important
         LocalDateTime myDateObj = LocalDateTime.now();
         DateTimeFormatter myFormatObj = DateTimeFormatter.ofPattern("ss");
         String formattedDate = myDateObj.format(myFormatObj);
 
-        if (formattedDate.equals("01") && requestBar) {
+        if (formattedDate.equals("00") && requestBar) {
             barHandler.updateBars(ticker, APIkey, secret);
             liveBar = new liveBar(0, 0, bars.get(bars.size() - 1).getClose(), 0, false);
             requestBar = false;
@@ -324,7 +338,7 @@ public class barTest {
 
     }
 
-    public static void stockDescription(JImGui imGui, alpacaListener al){
+    public static void stockDescription(JImGui imGui, polygonListener al){
         imGui.setNextWindowPos(1510, 20);
         imGui.setWindowSize("Details", 410, 200);
         imGui.begin("Details");
@@ -351,8 +365,26 @@ public class barTest {
         imGui.end();
     }
 
-    public static void priceWindow(JImGui imGui){
+    public static void priceWindow(JImGui imGui, polygonListener pl) throws IOException, InterruptedException {
         imGui.begin("Live Price");
+
+        byte[] InputBuf = new byte[6];
+
+        if(imGui.inputText("", InputBuf, JImInputTextFlags.CharsUppercase + JImInputTextFlags.CharsNoBlank)){
+            tickerInput = new String(InputBuf, StandardCharsets.UTF_8);
+        }
+
+        imGui.sameLine();
+
+        if(imGui.button("GO", 23f, 20f)){
+            tickerInputFinal = tickerInput;
+            ticker = tickerInputFinal.replaceAll("[^A-Za-z]+", "");
+            changeTicker.updatePolygonListener(ticker, pl);
+            changeTicker.changeTicker(ticker);
+            polygonTickerDetailed.getDetailed(ticker, APIkey);
+            liveBar = new liveBar(0, 0, 0, 0, false);
+        }
+
         JImDrawList dl = imGui.findWindowDrawList();
 
         float cursorPosX = imGui.getWindowPosX();
@@ -371,9 +403,9 @@ public class barTest {
         }
 
         if(priceNow == 0)
-            dl.addText(22, 23 + cursorPosX, 23 + cursorPosY, temp, String.valueOf(bars.get(99).getClose()));
+            dl.addText(22, 15 + cursorPosX, 50 + cursorPosY, temp, String.valueOf(bars.get(99).getClose()));
         else
-            dl.addText(22, 23 + cursorPosX, 23 + cursorPosY, temp, String.valueOf(priceNow));
+            dl.addText(22, 15 + cursorPosX, 50 + cursorPosY, temp, String.valueOf(priceNow));
 
         imGui.end();
     }
@@ -408,7 +440,7 @@ public class barTest {
 
     public static void main(String[] args) throws IOException, InterruptedException, URISyntaxException {
         String endpoint = "wss://data.alpaca.markets/stream";
-        String ticker = "GE";
+        ticker = "MU";
 
         barHandler.updateBars(ticker, APIkey, secret);
         alpacaPositions.updatePositionsAndOrders(pAPIkey, psecret);
@@ -434,9 +466,6 @@ public class barTest {
         NativeBool WLD = new NativeBool();
         NativeBool WLDA = new NativeBool();
 
-        alpacaListener al = new alpacaListener(new URI(endpoint), ticker, APIkey, secret);
-//        al.connect();
-
         polygonListener pl = new polygonListener(new URI("wss://socket.polygon.io/stocks"), ticker, APIkey);
         pl.connect();
         wldAlgo.wldAlgo(ticker);
@@ -455,16 +484,13 @@ public class barTest {
                 String formattedDate = myDateObj.format(myFormatObj);
                 time = myDateObj.format(myFormatObj2);
 
-//                client.forwardData(al);
-                pl.forwardData(al);
-
-                stockDescription(imGui, al);
+                stockDescription(imGui, pl);
                 renderBars(ticker, APIkey, secret, imGui, RSI, WLD);
-                al.renderListener(ticker, imGui);
+                pl.renderListener(ticker, imGui);
                 MenuBar(imGui, WLD, WLDA);
-                priceWindow(imGui);
+                priceWindow(imGui, pl);
 
-                alpacaPositions.renderPositionsAndOrders(imGui, al.getPrice(), rsibuy, rsisell, formattedDate);
+                alpacaPositions.renderPositionsAndOrders(imGui, pl.getPrice(), rsibuy, rsisell, formattedDate);
                 imGui.render();
             }
         }

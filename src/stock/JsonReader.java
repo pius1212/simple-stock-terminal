@@ -12,6 +12,8 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+import javax.net.ssl.SSLHandshakeException;
+
 public class JsonReader<Static> {
 
     private static String readAll(Reader rd) throws IOException {
