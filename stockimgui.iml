@@ -41,5 +41,12 @@
     <orderEntry type="library" name="rome-1.0" level="project" />
     <orderEntry type="library" name="jdom-2.0.2" level="project" />
     <orderEntry type="library" name="jdom-1.1" level="project" />
+    <orderEntry type="library" name="Maven: org.jetbrains:annotations:20.1.0" level="project" />
+    <orderEntry type="library" name="Maven: org.java-websocket:Java-WebSocket:1.5.1" level="project" />
+    <orderEntry type="library" name="Maven: commons-io:commons-io:2.8.0" level="project" />
+    <orderEntry type="library" name="Maven: org.json:json:20200518" level="project" />
+    <orderEntry type="library" name="Maven: javazoom:jlayer:1.0.1" level="project" />
+    <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:1.7.30" level="project" />
+    <orderEntry type="library" name="Maven: org.ice1000.jimgui:core:v0.9" level="project" />
   </component>
 </module>

@@ -436,7 +436,7 @@ public class barTest {
     }
 
     public static void main(String[] args) throws IOException, InterruptedException, URISyntaxException {
-        String endpoint = "wss://data.alpaca.markets/stream";
+        String endpoint = "wss://socket.polygon.io/stocks";
         ticker = "MU";
 
         barHandler.updateBars(ticker, APIkey, secret);
@@ -463,7 +463,7 @@ public class barTest {
         NativeBool WLD = new NativeBool();
         NativeBool WLDA = new NativeBool();
 
-        polygonListener pl = new polygonListener(new URI("wss://socket.v1.polygon.io/stocks"), ticker, APIkey);
+        polygonListener pl = new polygonListener(new URI(endpoint), ticker, APIkey);
         pl.connect();
         wldAlgo.wldAlgo(ticker);
 
