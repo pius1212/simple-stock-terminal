@@ -13,7 +13,7 @@ public class book {
 		JSONObject data = new JSONObject();
 		if (symbols.checkSymbol(ticker)){
 			data = jsonReader.readJsonFromUrl("https://api.iextrading.com/1.0/deep?symbols=" + ticker);
-		} else {
+		} else if(data.getInt("lastUpdated") == 0){
 			data = new JSONObject(new File("iexTickerError.json"));
 		}
 
