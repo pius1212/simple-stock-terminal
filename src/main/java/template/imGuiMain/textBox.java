@@ -1,4 +1,4 @@
-package v1.template.imGuiMain;
+package template.imGuiMain;
 
 import org.ice1000.jimgui.JImGui;
 import org.ice1000.jimgui.flag.JImInputTextFlags;
