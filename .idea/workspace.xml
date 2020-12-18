@@ -5,14 +5,46 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c7d115da-ed20-46be-83c2-76169d79051b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/v2/gui/setup/prerun.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/v2/test/imGui/cursorLocation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/v2/test/imGui/textBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/template/imGuiMain/imGuiWindowMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/v3/api/alpaca/alpacaBar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/v3/api/alpaca/alpacaIndicatorData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/v3/api/alpaca/alpacaListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/v3/api/alpaca/alpacaOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/v3/api/alpaca/alpacaPositions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/v3/api/alpaca/alpacaRESTConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/v3/api/alpaca/alpacaStock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/v3/api/iex/markets/book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/v3/api/iex/reference/corperateActions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/v3/api/iex/reference/dividends.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/v3/api/iex/reference/listedSymbolDirectory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/v3/api/iex/reference/symbols.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/v3/api/iex/tos" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/v3/api/polygon/rest/crypto/crypto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/v3/api/polygon/rest/forexCurrrencies/forexCurrencies.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/v3/api/polygon/rest/reference/marketstatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/v3/api/polygon/rest/reference/meta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/v3/api/polygon/rest/reference/reference.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/v3/api/polygon/rest/stocksEquities/aggs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/v3/api/polygon/rest/stocksEquities/last.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/v3/api/polygon/rest/stocksEquities/lastQuote.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/v3/api/polygon/rest/stocksEquities/meta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/v3/api/polygon/rest/stocksEquities/snapshot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/v3/api/polygon/rest/stocksEquities/stocksEquities.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/v3/api/polygon/rest/stocksEquities/ticks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/v3/api/polygon/websocket/polygonListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/v3/api/polygon/websocket/polygonTickerDetailed.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/v3/api/quandl/futures.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/v3/global/api/apiCredentials.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/v3/global/audio/JavaSoundAudioDevice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/v3/global/file/fileIO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/v3/global/imgui/image.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/v3/global/imgui/lowlevelColor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/v3/global/indicators/shortcuts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/v3/global/json/jsonReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/v3/gui/main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/imgui.ini" beforeDir="false" afterPath="$PROJECT_DIR$/imgui.ini" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/stockimgui_jar/stockimgui.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/stockimgui_jar/stockimgui.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/v2/objects/futures/wikiContFutTick.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/v2/objects/futures/wikiContFutTick.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/data.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/data.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +87,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JAVA" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/v2/api/polygon/websocket" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/v3" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -63,15 +95,12 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Dell Precision\IdeaProjects\stockimgui\src\v1" />
+      <recent name="C:\Users\Dell Precision\IdeaProjects\stockimgui\res" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Dell Precision\IdeaProjects\stockimgui\src\main\java\v2\api\polygon\websocket" />
-      <recent name="C:\Users\Dell Precision\IdeaProjects\stockimgui\src\main\java\v2\news\rss\benzinga" />
-      <recent name="C:\Users\Dell Precision\IdeaProjects\stockimgui\src\main\java\v2" />
-      <recent name="C:\Users\Dell Precision\IdeaProjects\stockimgui\src\main\java\v2\global\indicators" />
-      <recent name="C:\Users\Dell Precision\IdeaProjects\stockimgui\src\main\java\v2\global\imgui" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="v2.test.imGui" />
@@ -80,12 +109,15 @@
       <recent name="template.imGuiMain" />
       <recent name="stock" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Dell Precision\IdeaProjects\stockimgui\src\v1" />
-      <recent name="C:\Users\Dell Precision\IdeaProjects\stockimgui\res" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Dell Precision\IdeaProjects\stockimgui\src\main\java\v3" />
+      <recent name="C:\Users\Dell Precision\IdeaProjects\stockimgui\src\main\java\v2\api\polygon\websocket" />
+      <recent name="C:\Users\Dell Precision\IdeaProjects\stockimgui\src\main\java\v2\news\rss\benzinga" />
+      <recent name="C:\Users\Dell Precision\IdeaProjects\stockimgui\src\main\java\v2" />
+      <recent name="C:\Users\Dell Precision\IdeaProjects\stockimgui\src\main\java\v2\global\indicators" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.cursorLocation">
+  <component name="RunManager" selected="Application.barTest">
     <configuration name="barTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="v1.stock.test.bar.barTest" />
       <module name="stockimgui" />
@@ -159,15 +191,15 @@
     </configuration>
     <list>
       <item itemvalue="Application.barTest" />
-      <item itemvalue="Application.main" />
-      <item itemvalue="Application.test" />
-      <item itemvalue="Application.rssTest" />
       <item itemvalue="Application.cursorLocation" />
+      <item itemvalue="Application.main" />
+      <item itemvalue="Application.rssTest" />
+      <item itemvalue="Application.test" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.cursorLocation" />
         <item itemvalue="Application.barTest" />
+        <item itemvalue="Application.cursorLocation" />
         <item itemvalue="Application.rssTest" />
         <item itemvalue="Application.test" />
         <item itemvalue="Application.main" />
@@ -263,7 +295,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603891501398</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="add cursorLocation">
+      <created>1604584018066</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1604584018066</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -279,21 +318,14 @@
     <MESSAGE value="yes" />
     <MESSAGE value="fix book data" />
     <MESSAGE value="fix book data &amp; add futures framework WIP" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix book data &amp; add futures framework WIP" />
+    <MESSAGE value="add cursorLocation" />
+    <option name="LAST_COMMIT_MESSAGE" value="add cursorLocation" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1918" y="-266" key="#Notifications" timestamp="1595559922887">
-      <screen x="1366" y="-465" width="1920" height="1080" />
-    </state>
-    <state x="1918" y="-266" key="#Notifications/0.0.1366.768/1366.-465.1920.1080@1366.-465.1920.1080" timestamp="1595559922887" />
     <state x="1918" y="-224" key="#Project_Structure" timestamp="1603422879050">
       <screen x="1366" y="-423" width="1920" height="1080" />
     </state>
     <state x="1918" y="-224" key="#Project_Structure/0.0.1366.768/1366.-423.1920.1080@1366.-423.1920.1080" timestamp="1603422879050" />
-    <state x="1946" y="-268" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1598081237681">
-      <screen x="1366" y="-465" width="1920" height="1080" />
-    </state>
-    <state x="1946" y="-268" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1366.768/1366.-465.1920.1080@1366.-465.1920.1080" timestamp="1598081237681" />
     <state x="1780" y="-227" width="1092" height="858" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603424412160">
       <screen x="1366" y="-423" width="1920" height="1080" />
     </state>
@@ -306,20 +338,15 @@
       <screen x="1366" y="-423" width="1920" height="1080" />
     </state>
     <state x="2131" y="-173" key="#com.intellij.ide.util.MemberChooser/0.0.1366.768/1366.-423.1920.1080@1366.-423.1920.1080" timestamp="1602604394722" />
-    <state x="2131" y="-215" key="#com.intellij.ide.util.MemberChooser/0.0.1366.768/1366.-465.1920.1080@1366.-465.1920.1080" timestamp="1596466726229" />
     <state x="2049" y="-193" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1603422115390">
       <screen x="1366" y="-423" width="1920" height="1080" />
     </state>
     <state x="2049" y="-193" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1366.768/1366.-423.1920.1080@1366.-423.1920.1080" timestamp="1603422115390" />
-    <state x="2049" y="-235" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1366.768/1366.-465.1920.1080@1366.-465.1920.1080" timestamp="1595559661391" />
-    <state x="1969" y="41" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1604194140260">
-      <screen x="1366" y="-423" width="1920" height="1080" />
+    <state x="3889" y="-92" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1608310481382">
+      <screen x="3286" y="-556" width="1920" height="1080" />
     </state>
     <state x="1969" y="41" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1366.768/1366.-423.1920.1080@1366.-423.1920.1080" timestamp="1604194140260" />
-    <state x="2122" y="-39" width="408" height="237" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1595467360998">
-      <screen x="1366" y="-465" width="1920" height="1080" />
-    </state>
-    <state x="2122" y="-39" width="408" height="237" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1366.768/1366.-465.1920.1080@1366.-465.1920.1080" timestamp="1595467360998" />
+    <state x="3889" y="-92" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1366.768/3286.-556.1920.1080/1366.-563.1920.1080@3286.-556.1920.1080" timestamp="1608310481382" />
     <state x="2122" y="-2" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1603971028724">
       <screen x="1366" y="-423" width="1920" height="1080" />
     </state>
@@ -328,102 +355,62 @@
       <screen x="1366" y="-423" width="1920" height="1080" />
     </state>
     <state x="2056" y="-135" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.768/1366.-423.1920.1080@1366.-423.1920.1080" timestamp="1603550557845" />
-    <state x="2056" y="-177" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.768/1366.-465.1920.1080@1366.-465.1920.1080" timestamp="1598276460044" />
-    <state x="1968" y="-288" key="CommitChangelistDialog2" timestamp="1603891498967">
+    <state x="1968" y="-288" key="CommitChangelistDialog2" timestamp="1604584016894">
       <screen x="1366" y="-423" width="1920" height="1080" />
     </state>
-    <state x="1968" y="-288" key="CommitChangelistDialog2/0.0.1366.768/1366.-423.1920.1080@1366.-423.1920.1080" timestamp="1603891498967" />
-    <state x="428" y="0" key="CommitChangelistDialog2/0.0.1366.768/1366.-465.1920.1080@0.0.1366.768" timestamp="1595856350200" />
-    <state x="1968" y="-330" key="CommitChangelistDialog2/0.0.1366.768/1366.-465.1920.1080@1366.-465.1920.1080" timestamp="1598537794613" />
-    <state x="2193" y="-72" key="EnvironmentVariablesDialog" timestamp="1598968559578">
-      <screen x="1366" y="-423" width="1920" height="1080" />
-    </state>
-    <state x="2193" y="-72" key="EnvironmentVariablesDialog/0.0.1366.768/1366.-423.1920.1080@1366.-423.1920.1080" timestamp="1598968559578" />
-    <state x="2106" y="-183" key="FileChooserDialogImpl" timestamp="1595560085505">
-      <screen x="1366" y="-465" width="1920" height="1080" />
-    </state>
-    <state x="2106" y="-183" key="FileChooserDialogImpl/0.0.1366.768/1366.-465.1920.1080@1366.-465.1920.1080" timestamp="1595560085505" />
-    <state x="2201" y="-31" width="260" height="211" key="Github.ShareDialog" timestamp="1595560264281">
-      <screen x="1366" y="-465" width="1920" height="1080" />
-    </state>
-    <state x="2201" y="-31" width="260" height="211" key="Github.ShareDialog/0.0.1366.768/1366.-465.1920.1080@1366.-465.1920.1080" timestamp="1595560264281" />
-    <state x="2086" y="-219" key="Github.UntrackedFilesDialog" timestamp="1595560268349">
-      <screen x="1366" y="-465" width="1920" height="1080" />
-    </state>
-    <state x="2086" y="-219" key="Github.UntrackedFilesDialog/0.0.1366.768/1366.-465.1920.1080@1366.-465.1920.1080" timestamp="1595560268349" />
-    <state width="1323" height="352" key="GridCell.Tab.0.bottom" timestamp="1604374495796">
-      <screen x="0" y="0" width="1366" height="768" />
+    <state x="1968" y="-288" key="CommitChangelistDialog2/0.0.1366.768/1366.-423.1920.1080@1366.-423.1920.1080" timestamp="1604584016894" />
+    <state width="1306" height="253" key="GridCell.Tab.0.bottom" timestamp="1608307933424">
+      <screen x="3286" y="-556" width="1920" height="1080" />
     </state>
     <state width="1323" height="352" key="GridCell.Tab.0.bottom/0.0.1366.768/1366.-423.1920.1080@0.0.1366.768" timestamp="1604374495796" />
-    <state width="1877" height="352" key="GridCell.Tab.0.bottom/0.0.1366.768/1366.-423.1920.1080@1366.-423.1920.1080" timestamp="1604194807698" />
-    <state width="1323" height="609" key="GridCell.Tab.0.bottom/0.0.1366.768/1366.-465.1920.1080@0.0.1366.768" timestamp="1598381004618" />
-    <state width="1877" height="199" key="GridCell.Tab.0.bottom/0.0.1366.768/1366.-465.1920.1080@1366.-465.1920.1080" timestamp="1598458344210" />
+    <state width="1877" height="389" key="GridCell.Tab.0.bottom/0.0.1366.768/1366.-423.1920.1080@1366.-423.1920.1080" timestamp="1604942733145" />
+    <state width="1306" height="253" key="GridCell.Tab.0.bottom/0.0.1366.768/3286.-556.1920.1080/1366.-563.1920.1080@3286.-556.1920.1080" timestamp="1608307933424" />
     <state width="1323" height="231" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1603732772181" />
-    <state width="1323" height="352" key="GridCell.Tab.0.center" timestamp="1604374495796">
-      <screen x="0" y="0" width="1366" height="768" />
+    <state width="1306" height="253" key="GridCell.Tab.0.center" timestamp="1608307933424">
+      <screen x="3286" y="-556" width="1920" height="1080" />
     </state>
     <state width="1323" height="352" key="GridCell.Tab.0.center/0.0.1366.768/1366.-423.1920.1080@0.0.1366.768" timestamp="1604374495796" />
-    <state width="1877" height="352" key="GridCell.Tab.0.center/0.0.1366.768/1366.-423.1920.1080@1366.-423.1920.1080" timestamp="1604194807697" />
-    <state width="1323" height="609" key="GridCell.Tab.0.center/0.0.1366.768/1366.-465.1920.1080@0.0.1366.768" timestamp="1598381004618" />
-    <state width="1877" height="199" key="GridCell.Tab.0.center/0.0.1366.768/1366.-465.1920.1080@1366.-465.1920.1080" timestamp="1598458344210" />
+    <state width="1877" height="389" key="GridCell.Tab.0.center/0.0.1366.768/1366.-423.1920.1080@1366.-423.1920.1080" timestamp="1604942733145" />
+    <state width="1306" height="253" key="GridCell.Tab.0.center/0.0.1366.768/3286.-556.1920.1080/1366.-563.1920.1080@3286.-556.1920.1080" timestamp="1608307933424" />
     <state width="1323" height="231" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1603732772181" />
-    <state width="1323" height="352" key="GridCell.Tab.0.left" timestamp="1604374495796">
-      <screen x="0" y="0" width="1366" height="768" />
+    <state width="1306" height="253" key="GridCell.Tab.0.left" timestamp="1608307933424">
+      <screen x="3286" y="-556" width="1920" height="1080" />
     </state>
     <state width="1323" height="352" key="GridCell.Tab.0.left/0.0.1366.768/1366.-423.1920.1080@0.0.1366.768" timestamp="1604374495796" />
-    <state width="1877" height="352" key="GridCell.Tab.0.left/0.0.1366.768/1366.-423.1920.1080@1366.-423.1920.1080" timestamp="1604194807697" />
-    <state width="1323" height="609" key="GridCell.Tab.0.left/0.0.1366.768/1366.-465.1920.1080@0.0.1366.768" timestamp="1598381004618" />
-    <state width="1877" height="199" key="GridCell.Tab.0.left/0.0.1366.768/1366.-465.1920.1080@1366.-465.1920.1080" timestamp="1598458344209" />
+    <state width="1877" height="389" key="GridCell.Tab.0.left/0.0.1366.768/1366.-423.1920.1080@1366.-423.1920.1080" timestamp="1604942733145" />
+    <state width="1306" height="253" key="GridCell.Tab.0.left/0.0.1366.768/3286.-556.1920.1080/1366.-563.1920.1080@3286.-556.1920.1080" timestamp="1608307933424" />
     <state width="1323" height="231" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1603732772181" />
-    <state width="1323" height="352" key="GridCell.Tab.0.right" timestamp="1604374495796">
-      <screen x="0" y="0" width="1366" height="768" />
+    <state width="1306" height="253" key="GridCell.Tab.0.right" timestamp="1608307933424">
+      <screen x="3286" y="-556" width="1920" height="1080" />
     </state>
     <state width="1323" height="352" key="GridCell.Tab.0.right/0.0.1366.768/1366.-423.1920.1080@0.0.1366.768" timestamp="1604374495796" />
-    <state width="1877" height="352" key="GridCell.Tab.0.right/0.0.1366.768/1366.-423.1920.1080@1366.-423.1920.1080" timestamp="1604194807697" />
-    <state width="1323" height="609" key="GridCell.Tab.0.right/0.0.1366.768/1366.-465.1920.1080@0.0.1366.768" timestamp="1598381004618" />
-    <state width="1877" height="199" key="GridCell.Tab.0.right/0.0.1366.768/1366.-465.1920.1080@1366.-465.1920.1080" timestamp="1598458344210" />
+    <state width="1877" height="389" key="GridCell.Tab.0.right/0.0.1366.768/1366.-423.1920.1080@1366.-423.1920.1080" timestamp="1604942733145" />
+    <state width="1306" height="253" key="GridCell.Tab.0.right/0.0.1366.768/3286.-556.1920.1080/1366.-563.1920.1080@3286.-556.1920.1080" timestamp="1608307933424" />
     <state width="1323" height="231" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1603732772181" />
     <state x="1897" y="-287" width="916" height="708" key="SettingsEditor" timestamp="1603848325317">
       <screen x="1366" y="-423" width="1920" height="1080" />
     </state>
     <state x="1897" y="-287" key="SettingsEditor/0.0.1366.768/1366.-423.1920.1080@1366.-423.1920.1080" timestamp="1603848325317" />
-    <state x="1897" y="-329" width="1040" height="711" key="SettingsEditor/0.0.1366.768/1366.-465.1920.1080@1366.-465.1920.1080" timestamp="1595560210541" />
-    <state x="1918" y="-149" key="Vcs.Push.Dialog.v2" timestamp="1603891504167">
+    <state x="1918" y="-149" key="Vcs.Push.Dialog.v2" timestamp="1604584027881">
       <screen x="1366" y="-423" width="1920" height="1080" />
     </state>
-    <state x="1918" y="-149" key="Vcs.Push.Dialog.v2/0.0.1366.768/1366.-423.1920.1080@1366.-423.1920.1080" timestamp="1603891504167" />
-    <state x="1918" y="-191" key="Vcs.Push.Dialog.v2/0.0.1366.768/1366.-465.1920.1080@1366.-465.1920.1080" timestamp="1598537804639" />
-    <state x="467" y="260" key="com.intellij.ide.util.TipDialog" timestamp="1598537759709">
-      <screen x="0" y="0" width="1366" height="768" />
-    </state>
-    <state x="467" y="260" key="com.intellij.ide.util.TipDialog/0.0.1366.768/1366.-465.1920.1080@1366.-465.1920.1080" timestamp="1598537759709" />
-    <state x="569" y="352" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1597503564784" />
+    <state x="1918" y="-149" key="Vcs.Push.Dialog.v2/0.0.1366.768/1366.-423.1920.1080@1366.-423.1920.1080" timestamp="1604584027881" />
     <state x="2135" y="35" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603118148218">
       <screen x="1366" y="-423" width="1920" height="1080" />
     </state>
     <state x="2135" y="35" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.768/1366.-423.1920.1080@1366.-423.1920.1080" timestamp="1603118148218" />
-    <state x="2135" y="-7" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.768/1366.-465.1920.1080@1366.-465.1920.1080" timestamp="1597755974352" />
     <state x="2467" y="-177" width="737" height="804" key="find.popup" timestamp="1603725906072">
       <screen x="1366" y="-423" width="1920" height="1080" />
     </state>
     <state x="2467" y="-177" width="737" height="804" key="find.popup/0.0.1366.768/1366.-423.1920.1080@1366.-423.1920.1080" timestamp="1603725906072" />
-    <state x="2467" y="-219" width="737" height="804" key="find.popup/0.0.1366.768/1366.-465.1920.1080@1366.-465.1920.1080" timestamp="1598061703058" />
-    <state x="467" y="98" width="607" height="573" key="find.popup/0.0.1366.768@0.0.1366.768" timestamp="1597468509794" />
-    <state x="2128" y="-60" key="git4idea.rebase.GitRebaseDialog" timestamp="1595559966827">
-      <screen x="1366" y="-465" width="1920" height="1080" />
-    </state>
-    <state x="2128" y="-60" key="git4idea.rebase.GitRebaseDialog/0.0.1366.768/1366.-465.1920.1080@1366.-465.1920.1080" timestamp="1595559966827" />
-    <state x="1708" y="-262" key="new project wizard" timestamp="1602766844352">
+    <state x="1708" y="-262" key="new project wizard" timestamp="1604941748278">
       <screen x="1366" y="-423" width="1920" height="1080" />
     </state>
-    <state x="1708" y="-262" key="new project wizard/0.0.1366.768/1366.-423.1920.1080@1366.-423.1920.1080" timestamp="1602766844352" />
-    <state x="1708" y="-304" key="new project wizard/0.0.1366.768/1366.-465.1920.1080@1366.-465.1920.1080" timestamp="1597776177217" />
-    <state x="131" y="11" key="new project wizard/0.0.1366.768@0.0.1366.768" timestamp="1597503938319" />
+    <state x="1708" y="-262" key="new project wizard/0.0.1366.768/1366.-423.1920.1080@1366.-423.1920.1080" timestamp="1604941748278" />
     <state x="1989" y="-188" width="672" height="160" key="search.everywhere.popup" timestamp="1603561092067">
       <screen x="1366" y="-423" width="1920" height="1080" />
     </state>
     <state x="1989" y="-188" width="672" height="160" key="search.everywhere.popup/0.0.1366.768/1366.-423.1920.1080@1366.-423.1920.1080" timestamp="1603561092067" />
-    <state x="1989" y="-230" width="672" height="160" key="search.everywhere.popup/0.0.1366.768/1366.-465.1920.1080@1366.-465.1920.1080" timestamp="1598364042997" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/stockimgui$Scratch.ic" NAME="Scratch Coverage Results" MODIFIED="1591574923937" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
