@@ -2,12 +2,13 @@ package v3.global.api;
 
 import org.json.JSONObject;
 import v3.global.file.fileIO;
+import v3.global.json.jsonReader;
 
 import java.io.File;
 
 public class apiCredentials {
-	private final JSONObject data = new JSONObject(new File("data.json"));
-	private final JSONObject credentials = data.getJSONObject("credentials");
+	private JSONObject data = jsonReader.readJSONObjectFromFile("/data.json");
+	private JSONObject credentials = data.getJSONObject("credentials");
 
 	private String alpacaKey = credentials.getString("alpacaKey");
 	private String alpacaSecret = credentials.getString("alpacaSecret");

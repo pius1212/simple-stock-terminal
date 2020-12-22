@@ -1,4 +1,4 @@
-package v3.api.alpaca;
+package v3.api.alpaca.marketdata;
 
 import java.io.IOException;
 import java.net.URI;

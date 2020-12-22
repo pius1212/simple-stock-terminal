@@ -3,6 +3,7 @@ package v3.global.json;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
+import org.json.JSONTokener;
 
 import java.io.*;
 import java.net.URL;
@@ -51,5 +52,16 @@ public class jsonReader<Static> {
         } finally {
             is.close();
         }
+    }
+
+    //REQUIRES TO HAVE "/" BEFORE PATH, (i.e. "/data.json")
+    public static JSONObject readJSONObjectFromFile(String path){
+        InputStream is = jsonReader.class.getResourceAsStream(path);
+        if (is == null) {
+            throw new NullPointerException("Cannot find resource file " + path);
+        }
+
+        JSONTokener tokener = new JSONTokener(is);
+        return new JSONObject(tokener);
     }
 }

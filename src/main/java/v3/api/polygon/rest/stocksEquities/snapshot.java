@@ -16,6 +16,21 @@ public class snapshot {
 		return new JSONObject(IOUtils.toString(new URL(baseURL + "locale/us/markets/stocks/tickers" + apiKeyPeram + apiKey), StandardCharsets.UTF_8));
 	}
 
+	public static JSONObject getSnapshotAllTickers(String apiKey, String[] tickers) throws IOException {
+		String composite = "";
+		for(String ticker : tickers){
+			if(ticker != null){
+				composite += ticker + ",";
+			}
+		}
+		StringBuffer sb = new StringBuffer(composite);
+		sb.deleteCharAt(composite.length() - 1);
+
+		System.out.println(baseURL + "locale/us/markets/stocks/tickers" + apiKeyPeram + apiKey + "&tickers=" + sb.toString());
+
+		return new JSONObject(IOUtils.toString(new URL(baseURL + "locale/us/markets/stocks/tickers" + apiKeyPeram + apiKey + "&tickers=" + sb.toString()), StandardCharsets.UTF_8));
+	}
+
 	public static JSONObject getSnapshotSingleTicker(String ticker, String apiKey) throws IOException {
 		return new JSONObject(IOUtils.toString(new URL(baseURL + "locale/us/markets/stocks/tickers/" + ticker + apiKeyPeram + apiKey), StandardCharsets.UTF_8));
 	}

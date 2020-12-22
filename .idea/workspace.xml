@@ -5,46 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c7d115da-ed20-46be-83c2-76169d79051b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/template/imGuiMain/imGuiWindowMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/v3/api/alpaca/alpacaBar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/v3/api/alpaca/alpacaIndicatorData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/v3/api/alpaca/alpacaListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/v3/api/alpaca/alpacaOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/v3/api/alpaca/alpacaPositions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/v3/api/alpaca/alpacaRESTConnection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/v3/api/alpaca/alpacaStock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/v3/api/iex/markets/book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/v3/api/iex/reference/corperateActions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/v3/api/iex/reference/dividends.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/v3/api/iex/reference/listedSymbolDirectory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/v3/api/iex/reference/symbols.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/v3/api/iex/tos" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/v3/api/polygon/rest/crypto/crypto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/v3/api/polygon/rest/forexCurrrencies/forexCurrencies.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/v3/api/polygon/rest/reference/marketstatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/v3/api/polygon/rest/reference/meta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/v3/api/polygon/rest/reference/reference.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/v3/api/polygon/rest/stocksEquities/aggs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/v3/api/polygon/rest/stocksEquities/last.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/v3/api/polygon/rest/stocksEquities/lastQuote.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/v3/api/polygon/rest/stocksEquities/meta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/v3/api/polygon/rest/stocksEquities/snapshot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/v3/api/polygon/rest/stocksEquities/stocksEquities.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/v3/api/polygon/rest/stocksEquities/ticks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/v3/api/polygon/websocket/polygonListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/v3/api/polygon/websocket/polygonTickerDetailed.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/v3/api/quandl/futures.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/v3/global/api/apiCredentials.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/v3/global/audio/JavaSoundAudioDevice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/v3/global/file/fileIO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/v3/global/imgui/image.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/v3/global/imgui/lowlevelColor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/v3/global/indicators/shortcuts.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/v3/global/json/jsonReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/v3/gui/main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/v3/global/objects/bar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/v3/global/parse/csv.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/v3/global/parse/csvItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/v3/gui/breakoutgui.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/v3/screener/breakout/breakout.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/v3/screener/breakout/breakoutItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/v3/screener/breakout/init.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/v3/test/tbreakout.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/v3/test/tcredentials.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/watch.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imgui.ini" beforeDir="false" afterPath="$PROJECT_DIR$/imgui.ini" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/stockimgui_jar/stockimgui.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/stockimgui_jar/stockimgui.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/v3/api/alpaca/alpacaBar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/v3/api/alpaca/marketdata/alpacaBar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/v3/api/alpaca/alpacaIndicatorData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/v3/api/alpaca/marketdata/alpacaIndicatorData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/v3/api/alpaca/alpacaListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/v3/api/alpaca/marketdata/alpacaListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/v3/api/polygon/rest/stocksEquities/snapshot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/v3/api/polygon/rest/stocksEquities/snapshot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/v3/global/api/apiCredentials.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/v3/global/api/apiCredentials.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/v3/global/json/jsonReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/v3/global/json/jsonReader.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,7 +95,7 @@
       <recent name="C:\Users\Dell Precision\IdeaProjects\stockimgui\src\main\java\v2\global\indicators" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.barTest">
+  <component name="RunManager" selected="Application.tbreakout">
     <configuration name="barTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="v1.stock.test.bar.barTest" />
       <module name="stockimgui" />
@@ -147,20 +125,6 @@
         <option name="com.soywiz.korge.intellij.UpdateResourceBeforeRunTask" enabled="false" />
       </method>
     </configuration>
-    <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="v1.screener.main" />
-      <module name="stockimgui" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="v1.screener.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-        <option name="com.soywiz.korge.intellij.UpdateResourceBeforeRunTask" enabled="false" />
-      </method>
-    </configuration>
     <configuration name="rssTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="v1.rss.benzinga.rssTest" />
       <module name="stockimgui" />
@@ -175,12 +139,26 @@
         <option name="com.soywiz.korge.intellij.UpdateResourceBeforeRunTask" enabled="false" />
       </method>
     </configuration>
-    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="v1.stock.test.rss.test" />
+    <configuration name="tbreakout" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="v3.test.tbreakout" />
       <module name="stockimgui" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="v1.stock.test.rss.*" />
+          <option name="PATTERN" value="v3.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="com.soywiz.korge.intellij.UpdateResourceBeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
+    <configuration name="tcredentials" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="v3.test.tcredentials" />
+      <module name="stockimgui" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="v3.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -192,17 +170,17 @@
     <list>
       <item itemvalue="Application.barTest" />
       <item itemvalue="Application.cursorLocation" />
-      <item itemvalue="Application.main" />
       <item itemvalue="Application.rssTest" />
-      <item itemvalue="Application.test" />
+      <item itemvalue="Application.tbreakout" />
+      <item itemvalue="Application.tcredentials" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.tbreakout" />
+        <item itemvalue="Application.tcredentials" />
         <item itemvalue="Application.barTest" />
         <item itemvalue="Application.cursorLocation" />
         <item itemvalue="Application.rssTest" />
-        <item itemvalue="Application.test" />
-        <item itemvalue="Application.main" />
       </list>
     </recent_temporary>
   </component>
@@ -302,7 +280,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604584018066</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="actually do something productive">
+      <created>1608311348977</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1608311348977</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -319,7 +304,8 @@
     <MESSAGE value="fix book data" />
     <MESSAGE value="fix book data &amp; add futures framework WIP" />
     <MESSAGE value="add cursorLocation" />
-    <option name="LAST_COMMIT_MESSAGE" value="add cursorLocation" />
+    <MESSAGE value="actually do something productive" />
+    <option name="LAST_COMMIT_MESSAGE" value="actually do something productive" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1918" y="-224" key="#Project_Structure" timestamp="1603422879050">
@@ -355,50 +341,56 @@
       <screen x="1366" y="-423" width="1920" height="1080" />
     </state>
     <state x="2056" y="-135" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.768/1366.-423.1920.1080@1366.-423.1920.1080" timestamp="1603550557845" />
-    <state x="1968" y="-288" key="CommitChangelistDialog2" timestamp="1604584016894">
-      <screen x="1366" y="-423" width="1920" height="1080" />
+    <state x="3888" y="-421" key="CommitChangelistDialog2" timestamp="1608311347356">
+      <screen x="3286" y="-556" width="1920" height="1080" />
     </state>
     <state x="1968" y="-288" key="CommitChangelistDialog2/0.0.1366.768/1366.-423.1920.1080@1366.-423.1920.1080" timestamp="1604584016894" />
-    <state width="1306" height="253" key="GridCell.Tab.0.bottom" timestamp="1608307933424">
+    <state x="3888" y="-421" key="CommitChangelistDialog2/0.0.1366.768/3286.-556.1920.1080/1366.-563.1920.1080@3286.-556.1920.1080" timestamp="1608311347356" />
+    <state width="1877" height="255" key="GridCell.Tab.0.bottom" timestamp="1608652709972">
       <screen x="3286" y="-556" width="1920" height="1080" />
     </state>
     <state width="1323" height="352" key="GridCell.Tab.0.bottom/0.0.1366.768/1366.-423.1920.1080@0.0.1366.768" timestamp="1604374495796" />
     <state width="1877" height="389" key="GridCell.Tab.0.bottom/0.0.1366.768/1366.-423.1920.1080@1366.-423.1920.1080" timestamp="1604942733145" />
-    <state width="1306" height="253" key="GridCell.Tab.0.bottom/0.0.1366.768/3286.-556.1920.1080/1366.-563.1920.1080@3286.-556.1920.1080" timestamp="1608307933424" />
-    <state width="1323" height="231" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1603732772181" />
-    <state width="1306" height="253" key="GridCell.Tab.0.center" timestamp="1608307933424">
+    <state width="1877" height="255" key="GridCell.Tab.0.bottom/0.0.1366.768/3286.-556.1920.1080/1366.-563.1920.1080@3286.-556.1920.1080" timestamp="1608652709972" />
+    <state width="1323" height="255" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1608589734111" />
+    <state width="1877" height="255" key="GridCell.Tab.0.center" timestamp="1608652709971">
       <screen x="3286" y="-556" width="1920" height="1080" />
     </state>
     <state width="1323" height="352" key="GridCell.Tab.0.center/0.0.1366.768/1366.-423.1920.1080@0.0.1366.768" timestamp="1604374495796" />
     <state width="1877" height="389" key="GridCell.Tab.0.center/0.0.1366.768/1366.-423.1920.1080@1366.-423.1920.1080" timestamp="1604942733145" />
-    <state width="1306" height="253" key="GridCell.Tab.0.center/0.0.1366.768/3286.-556.1920.1080/1366.-563.1920.1080@3286.-556.1920.1080" timestamp="1608307933424" />
-    <state width="1323" height="231" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1603732772181" />
-    <state width="1306" height="253" key="GridCell.Tab.0.left" timestamp="1608307933424">
+    <state width="1877" height="255" key="GridCell.Tab.0.center/0.0.1366.768/3286.-556.1920.1080/1366.-563.1920.1080@3286.-556.1920.1080" timestamp="1608652709971" />
+    <state width="1323" height="255" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1608589734111" />
+    <state width="1877" height="255" key="GridCell.Tab.0.left" timestamp="1608652709971">
       <screen x="3286" y="-556" width="1920" height="1080" />
     </state>
     <state width="1323" height="352" key="GridCell.Tab.0.left/0.0.1366.768/1366.-423.1920.1080@0.0.1366.768" timestamp="1604374495796" />
     <state width="1877" height="389" key="GridCell.Tab.0.left/0.0.1366.768/1366.-423.1920.1080@1366.-423.1920.1080" timestamp="1604942733145" />
-    <state width="1306" height="253" key="GridCell.Tab.0.left/0.0.1366.768/3286.-556.1920.1080/1366.-563.1920.1080@3286.-556.1920.1080" timestamp="1608307933424" />
-    <state width="1323" height="231" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1603732772181" />
-    <state width="1306" height="253" key="GridCell.Tab.0.right" timestamp="1608307933424">
+    <state width="1877" height="255" key="GridCell.Tab.0.left/0.0.1366.768/3286.-556.1920.1080/1366.-563.1920.1080@3286.-556.1920.1080" timestamp="1608652709971" />
+    <state width="1323" height="255" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1608589734111" />
+    <state width="1877" height="255" key="GridCell.Tab.0.right" timestamp="1608652709972">
       <screen x="3286" y="-556" width="1920" height="1080" />
     </state>
     <state width="1323" height="352" key="GridCell.Tab.0.right/0.0.1366.768/1366.-423.1920.1080@0.0.1366.768" timestamp="1604374495796" />
     <state width="1877" height="389" key="GridCell.Tab.0.right/0.0.1366.768/1366.-423.1920.1080@1366.-423.1920.1080" timestamp="1604942733145" />
-    <state width="1306" height="253" key="GridCell.Tab.0.right/0.0.1366.768/3286.-556.1920.1080/1366.-563.1920.1080@3286.-556.1920.1080" timestamp="1608307933424" />
-    <state width="1323" height="231" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1603732772181" />
+    <state width="1877" height="255" key="GridCell.Tab.0.right/0.0.1366.768/3286.-556.1920.1080/1366.-563.1920.1080@3286.-556.1920.1080" timestamp="1608652709972" />
+    <state width="1323" height="255" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1608589734111" />
     <state x="1897" y="-287" width="916" height="708" key="SettingsEditor" timestamp="1603848325317">
       <screen x="1366" y="-423" width="1920" height="1080" />
     </state>
     <state x="1897" y="-287" key="SettingsEditor/0.0.1366.768/1366.-423.1920.1080@1366.-423.1920.1080" timestamp="1603848325317" />
-    <state x="1918" y="-149" key="Vcs.Push.Dialog.v2" timestamp="1604584027881">
-      <screen x="1366" y="-423" width="1920" height="1080" />
+    <state x="3838" y="-282" key="Vcs.Push.Dialog.v2" timestamp="1608311434225">
+      <screen x="3286" y="-556" width="1920" height="1080" />
     </state>
     <state x="1918" y="-149" key="Vcs.Push.Dialog.v2/0.0.1366.768/1366.-423.1920.1080@1366.-423.1920.1080" timestamp="1604584027881" />
+    <state x="3838" y="-282" key="Vcs.Push.Dialog.v2/0.0.1366.768/3286.-556.1920.1080/1366.-563.1920.1080@3286.-556.1920.1080" timestamp="1608311434225" />
     <state x="2135" y="35" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603118148218">
       <screen x="1366" y="-423" width="1920" height="1080" />
     </state>
     <state x="2135" y="35" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.768/1366.-423.1920.1080@1366.-423.1920.1080" timestamp="1603118148218" />
+    <state x="1682" y="-278" width="1620" height="783" maximized="true" key="dock-window-1" timestamp="1608622427969">
+      <screen x="1366" y="-563" width="1920" height="1080" />
+    </state>
+    <state x="1682" y="-278" width="1620" height="783" maximized="true" key="dock-window-1/0.0.1366.768/3286.-556.1920.1080/1366.-563.1920.1080@3286.-556.1920.1080" timestamp="1608622427969" />
     <state x="2467" y="-177" width="737" height="804" key="find.popup" timestamp="1603725906072">
       <screen x="1366" y="-423" width="1920" height="1080" />
     </state>

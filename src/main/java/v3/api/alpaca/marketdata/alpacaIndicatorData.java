@@ -1,4 +1,4 @@
-package v3.api.alpaca;
+package v3.api.alpaca.marketdata;
 
 public class alpacaIndicatorData {
     private double point;
